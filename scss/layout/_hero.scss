@@ -1,0 +1,19 @@
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 261px;
+    padding-bottom: 32px;
+}
+
+.hero__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+.hero__soc-list {
+    display: flex;
+    gap: 15px;
+}
