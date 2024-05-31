@@ -69,7 +69,13 @@ ul {
 }
 @media screen and (min-width: 834px) {
   .header-container {
+    max-width: 834px;
     padding: 16px 32px 0 32px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .header-container {
+    max-width: 1440px;
   }
 }
 
@@ -131,6 +137,11 @@ ul {
       -ms-flex-align: center;
           align-items: center;
   gap: 32px;
+}
+@media screen and (min-width: 1440px) {
+  .nav__list {
+    gap: 64px;
+  }
 }
 
 @media screen and (max-width: 833px) {

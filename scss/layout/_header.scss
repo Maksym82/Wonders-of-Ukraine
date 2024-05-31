@@ -7,7 +7,12 @@
   margin: 0 auto;
 
   @media screen and (min-width: 834px) {
+    max-width: 834px;
     padding: 16px 32px 0 32px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    max-width: 1440px;
   }
 }
 
@@ -54,6 +59,10 @@
   display: flex;
   align-items: center;
   gap: 32px;
+
+  @media screen and (min-width: 1440px) {
+    gap: 64px;
+  }
 }
 
 @media screen and (max-width: 833px) {
