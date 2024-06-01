@@ -1,19 +1,43 @@
 .hero__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 261px;
-    padding-bottom: 32px;
+  max-width: 375px;
+  min-height: 812px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 261px;
+  padding-bottom: 32px;
+  background-image: url('../../images/hero/hero-mobile@1x.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-container {
+    background-image: url('../../images/hero/hero-mobile@2x.jpg');
+  }
 }
 
 .hero__title {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 64px;
+  font-weight: 400;
+  font-size: 64px;
+  letter-spacing: 0.01em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 64px;
+}
+
+.hero__title > span {
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 0.01em;
+  text-align: center;
 }
 
 .hero__soc-list {
-    display: flex;
-    gap: 15px;
+  display: flex;
+  gap: 15px;
 }
