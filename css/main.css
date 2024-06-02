@@ -205,6 +205,7 @@ ul {
           align-items: center;
   font-weight: 400;
   font-size: 64px;
+  line-height: 1.4;
   letter-spacing: 0.01em;
   margin-bottom: 64px;
 }
@@ -227,9 +228,10 @@ ul {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-transform: rotateX(180deg);
-          transform: rotateX(180deg);
-  opacity: 0.4;
+  -webkit-transform: rotateX(180deg) translateY(-136px);
+          transform: rotateX(180deg) translateY(-136px);
+  opacity: 0.3;
+  position: absolute;
 }
 
 .hero__link {

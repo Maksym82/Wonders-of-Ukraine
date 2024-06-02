@@ -26,6 +26,7 @@
   align-items: center;
   font-weight: 400;
   font-size: 64px;
+  line-height: 1.4;
   letter-spacing: 0.01em;
   margin-bottom: 64px;
 }
@@ -48,8 +49,10 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  transform: rotateX(180deg);
-  opacity: 0.4;
+  transform: rotateX(180deg) translateY(-136px);
+  opacity: 0.3;
+  position: absolute;
+  
 }
 
 .hero__link {
