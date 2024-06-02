@@ -14,6 +14,37 @@
   }
 }
 
+.about__container {
+  background-image: url('../../images/about/map-mobile@1x.png');
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .about__container {
+    background-image: url('../../images/about/map-mobile@2x.png');
+    background-size: contain;
+  }
+}
+
+@media screen and (min-width: 834px) {
+  .about__container {
+    background-image: url('../../images/about/map-tablet@1x.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 155px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .about__container {
+      background-image: url('../../images/about/map-tablet@2x.png');
+      // background-size: contain;
+    }
+  }
+}
+
 .title {
   font-weight: 400;
   font-size: 40px;
@@ -24,6 +55,7 @@
   @media screen and (min-width: 834px) {
     font-size: 64px;
     margin-bottom: 64px;
+    padding-top: 55px;
   }
 }
 
@@ -39,6 +71,12 @@
 
   @media screen and (min-width: 1440px) {
     grid-template-columns: repeat(2, 496px);
+  }
+}
+
+@media screen and (max-width: 833px) {
+  .about__text-box {
+    row-gap: 32px;
   }
 }
 

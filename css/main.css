@@ -9,7 +9,7 @@ body {
   font-family: "Jomolhari", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  line-height: 140%;
+  line-height: 1.4;
   color: #ffffff;
 }
 
@@ -342,6 +342,29 @@ ul {
   }
 }
 
+.about__container {
+  background-image: url("../../images/about/map-mobile@1x.png");
+}
+
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .about__container {
+    background-image: url("../../images/about/map-mobile@2x.png");
+    background-size: contain;
+  }
+}
+@media screen and (min-width: 834px) {
+  .about__container {
+    background-image: url("../../images/about/map-tablet@1x.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 155px;
+  }
+}
+@media screen and (min-width: 834px) and (min-device-pixel-ratio: 2), screen and (min-width: 834px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 834px) and (min-resolution: 192dpi), screen and (min-width: 834px) and (min-resolution: 2dppx) {
+  .about__container {
+    background-image: url("../../images/about/map-tablet@2x.png");
+  }
+}
 .title {
   font-weight: 400;
   font-size: 40px;
@@ -353,6 +376,7 @@ ul {
   .title {
     font-size: 64px;
     margin-bottom: 64px;
+    padding-top: 55px;
   }
 }
 
@@ -377,6 +401,11 @@ ul {
   }
 }
 
+@media screen and (max-width: 833px) {
+  .about__text-box {
+    row-gap: 32px;
+  }
+}
 .about__text {
   font-family: "Lato", sans-serif;
   font-weight: 400;
