@@ -1,6 +1,13 @@
 .about {
-  background-color: $colorBg;
+  max-width: 375px;
+  margin: 0 auto;
   padding-top: 80px;
+  background-color: $colorBg;
+
+  @media screen and (min-width: 834px) {
+    max-width: 834px;
+    padding-top: 100px;
+  }
 }
 
 .title {
@@ -12,9 +19,14 @@
 }
 
 .about__text-box {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
+  display: grid;
+  justify-content: center;
+
+  @media screen and (min-width: 834px) {
+    grid-template-columns: repeat(2, 369px);
+    grid-template-rows: repeat(2, auto);
+    column-gap: 32px;
+  }
 }
 
 .about__text {
@@ -22,4 +34,13 @@
   font-weight: 400;
   letter-spacing: 0.01em;
   margin-bottom: 0;
+}
+
+@media screen and (min-width: 834px) {
+  .about__text:last-of-type {
+    margin-top: 26px;
+  }
+}
+.about__text:first-of-type {
+  grid-row: 1 / 4;
 }
