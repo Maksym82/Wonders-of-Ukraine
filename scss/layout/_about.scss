@@ -47,7 +47,14 @@
 @media screen and (min-width: 1440px) {
   .about__container {
     background-image: url('../../images/about/map-desktop@1x.png');
-            // padding-bottom: 155px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .about__container {
+      background-image: url('../../images/about/map-desktop@2x.png');
+    }
   }
 }
 
@@ -65,7 +72,7 @@
   }
 
   @media screen and (min-width: 1440px) {
-    padding-top: 71px;
+    padding-top: 80px;
   }
 }
 
