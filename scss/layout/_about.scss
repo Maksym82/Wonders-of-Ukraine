@@ -40,8 +40,14 @@
     (min-resolution: 2dppx) {
     .about__container {
       background-image: url('../../images/about/map-tablet@2x.png');
-      // background-size: contain;
     }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about__container {
+    background-image: url('../../images/about/map-desktop@1x.png');
+            // padding-bottom: 155px;
   }
 }
 
@@ -56,6 +62,10 @@
     font-size: 64px;
     margin-bottom: 64px;
     padding-top: 55px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    padding-top: 71px;
   }
 }
 

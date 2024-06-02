@@ -365,6 +365,11 @@ ul {
     background-image: url("../../images/about/map-tablet@2x.png");
   }
 }
+@media screen and (min-width: 1440px) {
+  .about__container {
+    background-image: url("../../images/about/map-desktop@1x.png");
+  }
+}
 .title {
   font-weight: 400;
   font-size: 40px;
@@ -377,6 +382,11 @@ ul {
     font-size: 64px;
     margin-bottom: 64px;
     padding-top: 55px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .title {
+    padding-top: 71px;
   }
 }
 
