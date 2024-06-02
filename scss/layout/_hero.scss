@@ -10,6 +10,12 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+
+  @media screen and (min-width: 834px) {
+    max-width: 834px;
+    padding-top: 318px;
+    padding-bottom: 64px;
+  }
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -29,6 +35,10 @@
   line-height: 1.4;
   letter-spacing: 0.01em;
   margin-bottom: 64px;
+
+  @media screen and (min-width: 834px) {
+    font-size: 128px;
+  }
 }
 
 .hero__title > span {
@@ -37,6 +47,10 @@
   line-height: 1.4;
   letter-spacing: 0.01em;
   text-align: center;
+
+  @media screen and (min-width: 834px) {
+    font-size: 48px;
+  }
 }
 
 .hero__title::after {
@@ -53,6 +67,10 @@
   opacity: 0.3;
   position: absolute;
   
+  @media screen and (min-width: 834px) {
+    font-size: 128px;
+    transform: rotateX(180deg) translateY(-265px);
+  }
 }
 
 .hero__link {
