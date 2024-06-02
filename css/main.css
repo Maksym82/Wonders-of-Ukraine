@@ -179,6 +179,7 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: #141a19;
   padding-top: 261px;
   padding-bottom: 32px;
   background-image: url("../../images/hero/hero-mobile@1x.jpg");
