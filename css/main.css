@@ -186,19 +186,26 @@ ul {
   background-position: center;
   background-size: cover;
 }
-@media screen and (min-width: 834px) {
-  .hero__container {
-    max-width: 834px;
-    padding-top: 318px;
-    padding-bottom: 64px;
-  }
-}
-
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  .hero-container {
+  .hero__container .hero-container {
     background-image: url("../../images/hero/hero-mobile@2x.jpg");
   }
 }
+@media screen and (min-width: 834px) {
+  .hero__container {
+    max-width: 834px;
+    min-height: 1008px;
+    padding-top: 318px;
+    padding-bottom: 64px;
+    background-image: url("../../images/hero/hero-tablet@1x.jpg");
+  }
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero__container .hero-container {
+    background-image: url("../../images/hero/hero-tablet@2x.jpg");
+  }
+}
+
 .hero__title {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -272,12 +279,30 @@ ul {
   background-color: #394014;
   margin-bottom: 225px;
 }
+@media screen and (min-width: 834px) {
+  .hero__link {
+    z-index: 1;
+    height: 54px;
+    padding: 16px 52px;
+    margin-bottom: 135px;
+  }
+}
 
 .hero__soc-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 15px;
+}
+@media screen and (min-width: 834px) {
+  .hero__soc-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-item-align: end;
+        align-self: end;
+  }
 }
 
 .hero__soc-link {
