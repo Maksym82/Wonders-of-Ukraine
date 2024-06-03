@@ -435,4 +435,8 @@ ul {
 }
 .about__text:first-of-type {
   grid-row: 1/4;
+}
+
+.tours__container {
+  padding-inline: 0;
 }/*# sourceMappingURL=main.css.map */
