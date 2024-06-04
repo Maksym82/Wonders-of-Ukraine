@@ -437,6 +437,10 @@ ul {
   grid-row: 1/4;
 }
 
+.tours {
+  background-color: #141a19;
+}
+
 .tours__container {
   padding-inline: 0;
 }/*# sourceMappingURL=main.css.map */
