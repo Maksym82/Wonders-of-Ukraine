@@ -30,3 +30,20 @@
   font-weight: 400;
   letter-spacing: 0.01em;
 }
+
+.tour__included-title {
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  margin-bottom: 16px;
+}
+
+.tour__list {
+  margin-bottom: 32px;
+}
+
+.tour__item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
