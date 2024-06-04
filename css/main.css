@@ -344,6 +344,7 @@ ul {
 
 .about__container {
   background-image: url("../../images/about/map-mobile@1x.png");
+  background-repeat: no-repeat;
 }
 
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
