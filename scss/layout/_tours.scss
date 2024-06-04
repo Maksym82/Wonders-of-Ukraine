@@ -43,7 +43,31 @@
 }
 
 .tour__item {
-    display: flex;
-    align-items: center;
-    gap: 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  fill: $colorWhite;
+}
+
+.tour__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.tour__button-link {
+  display: block;
+  font-weight: 400;
+  border-radius: 4px;
+  text-align: center;
+  padding: 16px 52px;
+  width: 343px;
+  height: 54px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: $colorWhite;
+  background-color: $colorBut;
+  text-decoration: none;
+  cursor: pointer;
 }
