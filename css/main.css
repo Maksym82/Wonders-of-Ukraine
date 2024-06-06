@@ -516,4 +516,32 @@ ul {
   background-color: #394014;
   text-decoration: none;
   cursor: pointer;
+}
+
+.my-slick-prev,
+.my-slick-next {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  width: 50px;
+  height: 5px;
+  cursor: pointer;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 1;
+  border: none;
+  background-color: transparent;
+}
+
+.slick_arrow {
+  width: 114px;
+  height: 30px;
 }/*# sourceMappingURL=main.css.map */
