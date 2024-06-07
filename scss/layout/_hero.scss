@@ -7,7 +7,7 @@
   background-color: #141a19;
   padding-top: 261px;
   padding-bottom: 32px;
- 
+  background-image: url('/images/hero/hero-mobile@1x.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -16,7 +16,9 @@
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-  
+  .hero__container {
+    background-image: url('/images/hero/hero-mobile@2x.jpg');
+  }
 }
 
 @media screen and (min-width: 834px) {
@@ -25,13 +27,15 @@
     min-height: 1008px;
     padding-top: 358px;
     padding-bottom: 64px;
-    
+    background-image: url('../../images/hero/hero-tablet-1-834.jpg');
   }
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    
+    .hero__container {
+      background-image: url('../../images/hero/hero-tablet@2x.jpg');
+    }
   }
 }
 
