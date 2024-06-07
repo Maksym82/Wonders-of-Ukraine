@@ -199,7 +199,7 @@ ul {
     min-height: 1008px;
     padding-top: 358px;
     padding-bottom: 64px;
-    background-image: url("../../images/hero/hero-tablet@1x.jpg");
+    background-image: url("/images/hero/hero-tablet@1x.jpg");
   }
 }
 @media screen and (min-width: 834px) and (min-device-pixel-ratio: 2), screen and (min-width: 834px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 834px) and (min-resolution: 192dpi), screen and (min-width: 834px) and (min-resolution: 2dppx) {
@@ -236,7 +236,7 @@ ul {
   font-size: 64px;
   line-height: 1.4;
   letter-spacing: 0.01em;
-  margin-bottom: 66px;
+  margin-bottom: 64px;
 }
 @media screen and (min-width: 834px) {
   .hero__title {
