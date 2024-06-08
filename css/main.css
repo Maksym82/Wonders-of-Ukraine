@@ -472,6 +472,11 @@ ul {
     margin: 40px 0 24px 0;
   }
 }
+@media screen and (min-width: 1440px) {
+  .tour__title {
+    margin: 64px 0 32px 0;
+  }
+}
 
 .tour__info-text {
   font-family: "Lato", sans-serif;
