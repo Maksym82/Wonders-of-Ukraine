@@ -355,7 +355,7 @@ ul {
 }
 @media screen and (min-width: 834px) {
   .about__container {
-    background-image: url("/images/about/map-tablet@1x.png");
+    background-image: url("../images/about/map-tablet@1x.png");
     background-repeat: no-repeat;
     background-position: center;
     padding-bottom: 155px;
