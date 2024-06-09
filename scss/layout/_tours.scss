@@ -40,6 +40,12 @@
     gap: 32px;
     margin-bottom: 39px;
   }
+
+  @media screen and (min-width: 1440px) {
+    .tour__info-block {
+      display: block;
+    }
+  }
 }
 
 .tour__info-text {
