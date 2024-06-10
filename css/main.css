@@ -460,6 +460,11 @@ ul {
   padding-inline: 0;
 }
 
+@media screen and (min-width: 1440px) {
+  .tour__info-wrapper {
+    width: 502px;
+  }
+}
 .tour__title {
   font-weight: 400;
   font-size: 24px;
@@ -502,6 +507,7 @@ ul {
           flex-direction: column;
   gap: 10px;
   margin-bottom: 18px;
+  padding-left: 20px;
 }
 
 .tour__info-list > li {
@@ -549,6 +555,13 @@ ul {
   margin-bottom: 9px;
 }
 
+@media screen and (min-width: 1440px) {
+  .tour__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
 .tour__button-link {
   display: block;
   font-weight: 400;
@@ -569,6 +582,30 @@ ul {
     width: 169px;
     height: 54px;
   }
+}
+@media screen and (min-width: 1440px) {
+  .tour__button-link {
+    margin-right: 38px;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .tour__price,
+  .tour__cost {
+    display: none;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .tour__price,
+  .tour__cost {
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: 0.01em;
+    margin-bottom: 0;
+  }
+}
+.tour__price {
+  margin-right: 72px;
 }
 
 /* Slick */
