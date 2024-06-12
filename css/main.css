@@ -646,5 +646,6 @@ ul {
 @media screen and (min-width: 1440px) {
   .slick__image {
     width: 704px;
+    margin-right: 32px;
   }
 }/*# sourceMappingURL=main.css.map */
