@@ -630,6 +630,8 @@ ul {
   line-height: 1;
   border: none;
   background-color: transparent;
+  bottom: 0px;
+  right: 25%;
 }
 
 .slick_arrow {
@@ -640,4 +642,9 @@ ul {
 
 .slick__image {
   border-radius: 4px;
+}
+@media screen and (min-width: 1440px) {
+  .slick__image {
+    width: 704px;
+  }
 }/*# sourceMappingURL=main.css.map */
