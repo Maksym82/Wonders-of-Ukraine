@@ -358,7 +358,7 @@ ul {
     background-image: url("../images/about/map-tablet@1x.png");
     background-repeat: no-repeat;
     background-position: center;
-    padding-bottom: 155px;
+    padding-bottom: 245px;
   }
 }
 @media screen and (min-width: 834px) and (min-device-pixel-ratio: 2), screen and (min-width: 834px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 834px) and (min-resolution: 192dpi), screen and (min-width: 834px) and (min-resolution: 2dppx) {
@@ -387,15 +387,8 @@ ul {
   .title {
     font-size: 64px;
     margin-bottom: 64px;
-    padding-top: 55px;
   }
 }
-@media screen and (min-width: 1440px) {
-  .title {
-    padding-top: 80px;
-  }
-}
-
 .about__text-box {
   display: grid;
   -webkit-box-pack: center;

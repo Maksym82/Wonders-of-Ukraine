@@ -33,7 +33,7 @@
     background-image: url('../images/about/map-tablet@1x.png');
     background-repeat: no-repeat;
     background-position: center;
-    padding-bottom: 155px;
+    padding-bottom: 245px;
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -69,11 +69,10 @@
   @media screen and (min-width: 834px) {
     font-size: 64px;
     margin-bottom: 64px;
-    padding-top: 55px;
   }
 
   @media screen and (min-width: 1440px) {
-    padding-top: 80px;
+    // padding-top: 80px;
   }
 }
 
