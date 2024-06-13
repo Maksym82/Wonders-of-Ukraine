@@ -449,6 +449,7 @@ ul {
   .tours {
     max-width: 834px;
     padding-top: 100px;
+    padding-bottom: 80px;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -638,17 +639,36 @@ ul {
   height: 45px;
   z-index: 10;
 }
+@media screen and (min-width: 834px) {
+  .my-slick-prev {
+    width: 144px;
+    left: 153px;
+    bottom: -75px;
+  }
+}
 
 .my-slick-next {
   right: 16px;
   width: 114px;
   height: 45px;
 }
+@media screen and (min-width: 834px) {
+  .my-slick-next {
+    width: 144px;
+    right: 153px;
+    bottom: -75px;
+  }
+}
 
 .slick_arrow {
   width: 114px;
   height: 30px;
   fill: #ffffff;
+}
+@media screen and (min-width: 834px) {
+  .slick_arrow {
+    width: 144px;
+  }
 }
 
 .slick__image {
