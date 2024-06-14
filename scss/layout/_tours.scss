@@ -197,6 +197,10 @@
     right: 153px;
     bottom: -75px;
   }
+
+  @media screen and (min-width: 1440px) {
+    bottom: 20px;
+  }
 }
 
 .slick_arrow {

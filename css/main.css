@@ -652,6 +652,11 @@ ul {
     bottom: -75px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .my-slick-next {
+    bottom: 20px;
+  }
+}
 
 .slick_arrow {
   width: 114px;
