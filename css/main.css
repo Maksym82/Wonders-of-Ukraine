@@ -457,7 +457,7 @@ ul {
 
 @media screen and (min-width: 1440px) {
   .tour__info-wrapper {
-    width: 502px;
+    width: 510px;
   }
 }
 .tour__title {
@@ -475,6 +475,7 @@ ul {
 @media screen and (min-width: 1440px) {
   .tour__title {
     margin: 64px 0 32px 0;
+    width: 510px;
   }
 }
 
