@@ -435,14 +435,12 @@ ul {
   max-width: 375px;
   margin: 0 auto;
   padding-top: 80px;
-  padding-bottom: 43px;
   background-color: #141a19;
 }
 @media screen and (min-width: 834px) {
   .tours {
     max-width: 834px;
     padding-top: 100px;
-    padding-bottom: 80px;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -474,7 +472,7 @@ ul {
 }
 @media screen and (min-width: 1440px) {
   .tour__title {
-    margin: 64px 0 32px 0;
+    margin: 106px 0 32px 0;
     width: 510px;
   }
 }
@@ -640,6 +638,12 @@ ul {
     bottom: -75px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .my-slick-prev {
+    left: 32px;
+    bottom: 575px;
+  }
+}
 
 .my-slick-next {
   right: 16px;
@@ -651,6 +655,12 @@ ul {
     width: 144px;
     right: 153px;
     bottom: -75px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .my-slick-next {
+    right: 32px;
+    bottom: 575px;
   }
 }
 

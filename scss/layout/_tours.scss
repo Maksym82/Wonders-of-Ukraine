@@ -2,14 +2,12 @@
   max-width: 375px;
   margin: 0 auto;
   padding-top: 80px;
-  padding-bottom: 43px;
   background-color: $colorBg;
 
   @media screen and (min-width: 834px) {
     max-width: 834px;
     padding-top: 100px;
-    padding-bottom: 80px;
-  }
+}
 
   @media screen and (min-width: 1440px) {
     max-width: 1440px;
@@ -38,7 +36,7 @@
   }
 
   @media screen and (min-width: 1440px) {
-    margin: 64px 0 32px 0;
+    margin: 106px 0 32px 0;
     width: 510px;
   }
 }
@@ -185,6 +183,11 @@
     left: 153px;
     bottom: -75px;
   }
+
+  @media screen and (min-width: 1440px) {
+    left: 32px;
+    bottom: 575px;
+  }
 }
 
 .my-slick-next {
@@ -199,9 +202,10 @@
     bottom: -75px;
   }
 
-  // @media screen and (min-width: 1440px) {
-  //   bottom: 20px;
-  // }
+  @media screen and (min-width: 1440px) {
+    right: 32px;
+    bottom: 575px;
+  }
 }
 
 .slick_arrow {
