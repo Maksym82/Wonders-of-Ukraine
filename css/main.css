@@ -455,6 +455,10 @@ ul {
   padding-inline: 0;
 }
 
+.container__tours {
+  height: 580px;
+}
+
 @media screen and (min-width: 1440px) {
   .tour__info-wrapper {
     width: 510px;
