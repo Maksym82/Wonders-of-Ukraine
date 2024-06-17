@@ -686,4 +686,22 @@ ul {
     width: 704px;
     margin-right: 32px;
   }
+}
+
+.gallery {
+  max-width: 375px;
+  margin: 0 auto;
+  background-color: #141a19;
+  padding-bottom: 112px;
+}
+@media screen and (min-width: 834px) {
+  .gallery {
+    max-width: 834px;
+    padding-bottom: 164px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .gallery {
+    max-width: 1440px;
+  }
 }/*# sourceMappingURL=main.css.map */
