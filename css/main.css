@@ -628,7 +628,7 @@ ul {
 }
 
 .my-slick-prev {
-  bottom: -45px;
+  bottom: -55px;
   left: 16px;
   width: 114px;
   height: 45px;
@@ -644,11 +644,11 @@ ul {
 @media screen and (min-width: 1440px) {
   .my-slick-prev {
     left: 32px;
-    bottom: 575px;
   }
 }
 
 .my-slick-next {
+  bottom: -55px;
   right: 16px;
   width: 114px;
   height: 45px;
@@ -663,7 +663,6 @@ ul {
 @media screen and (min-width: 1440px) {
   .my-slick-next {
     right: 32px;
-    bottom: 575px;
   }
 }
 
@@ -704,4 +703,8 @@ ul {
   .gallery {
     max-width: 1440px;
   }
+}
+
+.gallery__item {
+  margin-right: 16px;
 }/*# sourceMappingURL=main.css.map */

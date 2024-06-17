@@ -175,7 +175,7 @@
 }
 
 .my-slick-prev {
-  bottom: -45px;
+  bottom: -55px;
   left: 16px;
   width: 114px;
   height: 45px;
@@ -189,12 +189,12 @@
 
   @media screen and (min-width: 1440px) {
     left: 32px;
-    bottom: 575px;
+    // bottom: 575px;
   }
 }
 
 .my-slick-next {
-  // bottom: 0px;
+  bottom: -55px;
   right: 16px;
   width: 114px;
   height: 45px;
@@ -207,7 +207,7 @@
 
   @media screen and (min-width: 1440px) {
     right: 32px;
-    bottom: 575px;
+    // bottom: 575px;
   }
 }
 
