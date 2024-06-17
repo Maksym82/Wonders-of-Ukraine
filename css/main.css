@@ -707,4 +707,8 @@ ul {
 
 .gallery__item {
   margin-right: 16px;
+}
+
+.slick__box {
+  border-radius: 6px;
 }/*# sourceMappingURL=main.css.map */
