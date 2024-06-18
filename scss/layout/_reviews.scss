@@ -16,11 +16,13 @@
 .reviews__item {
   padding: 32px;
   width: 343px;
+  height: 343px;
   border-radius: 4px;
   border: 1px solid $colorWhite;
 
   @media screen and (min-width: 834px) {
     width: 320px;
+    height: 352px;
   }
 }
 
