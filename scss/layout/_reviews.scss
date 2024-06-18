@@ -15,12 +15,14 @@
 
 .reviews__item {
   padding: 32px;
+  width: 343px;
 }
 
 .reviews__box {
   display: flex;
   align-items: center;
   gap: 24px;
+  margin-bottom: 32px;
 }
 
 .reviews__avatar {
@@ -35,7 +37,14 @@
 }
 
 .reviews__rating {
-    display: flex;
-    gap: 4px;
-    fill: $colorStars;
+  display: flex;
+  gap: 4px;
+  fill: $colorStars;
+}
+
+.reviews__text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  margin-bottom: 0;
 }

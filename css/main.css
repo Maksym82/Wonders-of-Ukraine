@@ -733,6 +733,7 @@ ul {
 
 .reviews__item {
   padding: 32px;
+  width: 343px;
 }
 
 .reviews__box {
@@ -743,6 +744,7 @@ ul {
       -ms-flex-align: center;
           align-items: center;
   gap: 24px;
+  margin-bottom: 32px;
 }
 
 .reviews__avatar {
@@ -762,4 +764,11 @@ ul {
   display: flex;
   gap: 4px;
   fill: #ae990b;
+}
+
+.reviews__text {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  margin-bottom: 0;
 }/*# sourceMappingURL=main.css.map */
