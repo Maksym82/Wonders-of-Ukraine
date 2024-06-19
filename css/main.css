@@ -742,6 +742,7 @@ ul {
   .reviews__item {
     width: 320px;
     height: 352px;
+    margin-right: 32px;
   }
 }
 
