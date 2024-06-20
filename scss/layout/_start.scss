@@ -1,0 +1,19 @@
+.start {
+  max-width: 375px;
+  margin: 0 auto;
+  background-color: $colorBg;
+  padding-top: 80px;
+
+  @media screen and (min-width: 834px) {
+    max-width: 834px;
+    padding-top: 100px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    max-width: 1440px;
+  }
+}
+
+.start > .container {
+  padding-inline: 0;
+}

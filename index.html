@@ -897,54 +897,56 @@
       </section>
       <section class="start">
         <div class="container">
-          <div class="start__wrapper">
-            <div class="start__text">
-              <h2 class="start__title">Start travel</h2>
-              <p class="start__description">
-                If you want to get an unforgettable trip, quickly fill out the
-                application and we will contact you during the day
-              </p>
-              <p class="start__description">
-                We are ready to answer any questions and help choose the best
-                tour
-              </p>
+          <div class="start__background">
+            <div class="start__wrapper">
+              <div class="start__text">
+                <h2 class="start__title">Start travel</h2>
+                <p class="start__description">
+                  If you want to get an unforgettable trip, quickly fill out the
+                  application and we will contact you during the day
+                </p>
+                <p class="start__description">
+                  We are ready to answer any questions and help choose the best
+                  tour
+                </p>
+              </div>
+              <form class="form">
+                <div class="form__field">
+                  <label class="form__label" for="name">Name</label>
+                  <input
+                    class="form__input"
+                    type="text"
+                    id="name"
+                    name="user-name"
+                    placeholder="Enter your name"
+                    minlength="2"
+                    required
+                  />
+                </div>
+                <div class="form__field">
+                  <label class="form__label" for="phone">Phone</label>
+                  <input
+                    class="form__input"
+                    type="tel"
+                    id="phone"
+                    name="user-phone"
+                    placeholder="+380__-___-__-__"
+                    pattern="^\+380\d{2}([\s\-]?)\d{3}([\s\-]?)\d{2}([\s\-]?)\d{2}$"
+                    required
+                  />
+                </div>
+                <div class="form__comment">
+                  <textarea
+                    class="form__textarea"
+                    name="comment"
+                    id="comment"
+                    rows="3"
+                    placeholder="Your message"
+                  ></textarea>
+                </div>
+                <button class="form__button" type="submit">Send</button>
+              </form>
             </div>
-            <form class="form">
-              <div class="form__field">
-                <label class="form__label" for="name">Name</label>
-                <input
-                  class="form__input"
-                  type="text"
-                  id="name"
-                  name="user-name"
-                  placeholder="Enter your name"
-                  minlength="2"
-                  required
-                />
-              </div>
-              <div class="form__field">
-                <label class="form__label" for="phone">Phone</label>
-                <input
-                  class="form__input"
-                  type="tel"
-                  id="phone"
-                  name="user-phone"
-                  placeholder="+380__-___-__-__"
-                  pattern="^\+380\d{2}([\s\-]?)\d{3}([\s\-]?)\d{2}([\s\-]?)\d{2}$"
-                  required
-                />
-              </div>
-              <div class="form__comment">
-                <textarea
-                  class="form__textarea"
-                  name="comment"
-                  id="comment"
-                  rows="3"
-                  placeholder="Your message"
-                ></textarea>
-              </div>
-              <button class="form__button" type="submit">Send</button>
-            </form>
           </div>
         </div>
       </section>

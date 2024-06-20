@@ -717,7 +717,7 @@ ul {
 .reviews {
   max-width: 375px;
   margin: 0 auto;
-  padding-bottom: 80px;
+  padding-bottom: 64px;
 }
 @media screen and (min-width: 834px) {
   .reviews {
@@ -787,4 +787,26 @@ ul {
   font-weight: 400;
   letter-spacing: 0.01em;
   margin-bottom: 0;
+}
+
+.start {
+  max-width: 375px;
+  margin: 0 auto;
+  background-color: #141a19;
+  padding-top: 80px;
+}
+@media screen and (min-width: 834px) {
+  .start {
+    max-width: 834px;
+    padding-top: 100px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .start {
+    max-width: 1440px;
+  }
+}
+
+.start > .container {
+  padding-inline: 0;
 }/*# sourceMappingURL=main.css.map */
