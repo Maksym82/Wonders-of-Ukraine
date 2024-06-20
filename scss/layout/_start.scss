@@ -17,3 +17,14 @@
 .start > .container {
   padding-inline: 0;
 }
+
+.start__background {
+    background-image: url('../../images/start/start-mobile-@1x.jpg');
+    width: 375px;
+    height: 800px;
+    padding-top: 54px;
+    padding-bottom: 54px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
