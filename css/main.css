@@ -828,6 +828,31 @@ ul {
   }
 }
 .start__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 32px;
   padding: 40px 16px;
   background-color: #141a19;
+}
+
+.start__title {
+  font-weight: 400;
+  font-size: 32px;
+  letter-spacing: 0.01em;
+  margin-bottom: 24px;
+}
+
+.start__description {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+
+.start__description:last-child {
+  margin-bottom: 0;
 }/*# sourceMappingURL=main.css.map */
