@@ -820,4 +820,14 @@ ul {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .start__background {
+    background-image: url("../../images/start/start-mobile-@2x.jpg");
+  }
+}
+.start__wrapper {
+  padding: 40px 16px;
+  background-color: #141a19;
 }/*# sourceMappingURL=main.css.map */
