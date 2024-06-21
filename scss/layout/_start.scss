@@ -80,5 +80,48 @@
   padding: 14px 12px;
   width: 343px;
   height: 50px;
+  font-family: 'Lato', sans-serif;
   background-color: $colorBg;
+  color: $colorInput;
+  outline: none;
+  letter-spacing: 0.01em;
+}
+
+.form__input:focus {
+  border: 1px solid $colorBut;
+}
+
+.form__textarea {
+  border: 1px solid $colorWhite;
+  padding: 14px 12px;
+  width: 343px;
+  height: 102px;
+  font-family: 'Lato', sans-serif;
+  background-color: $colorBg;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  color: $colorInput;
+  margin-bottom: 32px;
+  outline: none;
+  resize: none;
+}
+
+.form__textarea:focus {
+  border: 1px solid $colorBut;
+}
+
+.form__button {
+  padding: 16px 52px;
+  width: 343px;
+  height: 54px;
+  background-color: $colorBut;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  color: $colorWhite;
+  border: none;
+  cursor: pointer;
 }

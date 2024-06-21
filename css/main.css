@@ -880,5 +880,48 @@ ul {
   padding: 14px 12px;
   width: 343px;
   height: 50px;
+  font-family: "Lato", sans-serif;
   background-color: #141a19;
+  color: #b9b9b9;
+  outline: none;
+  letter-spacing: 0.01em;
+}
+
+.form__input:focus {
+  border: 1px solid #394014;
+}
+
+.form__textarea {
+  border: 1px solid #ffffff;
+  padding: 14px 12px;
+  width: 343px;
+  height: 102px;
+  font-family: "Lato", sans-serif;
+  background-color: #141a19;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  color: #b9b9b9;
+  margin-bottom: 32px;
+  outline: none;
+  resize: none;
+}
+
+.form__textarea:focus {
+  border: 1px solid #394014;
+}
+
+.form__button {
+  padding: 16px 52px;
+  width: 343px;
+  height: 54px;
+  background-color: #394014;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
