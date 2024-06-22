@@ -1065,4 +1065,16 @@ ul {
   text-decoration: none;
   cursor: pointer;
   font-style: normal;
+}
+
+.footer__soc-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+}
+
+.footer__soc-link {
+  fill: #ffffff;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */

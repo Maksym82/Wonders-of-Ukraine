@@ -54,3 +54,13 @@
   cursor: pointer;
   font-style: normal;
 }
+
+.footer__soc-list {
+    display: flex;
+    gap: 15px;
+}
+
+.footer__soc-link {
+    fill: $colorWhite;
+    cursor: pointer;
+}
