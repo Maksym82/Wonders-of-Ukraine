@@ -22,7 +22,7 @@
 }
 
 .footer__nav {
-    margin-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 .footer__nav-list {
@@ -37,4 +37,19 @@
   text-decoration: none;
   cursor: pointer;
   color: $colorWhite;
+}
+
+.address__list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.address__link {
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: $colorWhite;
+  text-decoration: none;
+  cursor: pointer;
+  font-style: normal;
 }
