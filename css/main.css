@@ -994,4 +994,31 @@ ul {
   .form__button {
     width: 320px;
   }
+}
+
+.footer {
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 16px 0;
+}
+
+.footer__logo-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  fill: #ffffff;
+  background-color: transparent;
+  cursor: pointer;
+  width: 127px;
+  height: 90px;
+  margin-bottom: 32px;
+}
+
+.footer__logo-icon {
+  width: 127px;
+  height: 90px;
+  padding: 0;
 }/*# sourceMappingURL=main.css.map */
