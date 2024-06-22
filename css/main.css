@@ -847,6 +847,11 @@ ul {
     padding: 135px 32px 135px 376px;
   }
 }
+@media screen and (min-width: 1440px) and (min-device-pixel-ratio: 2), screen and (min-width: 1440px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1440px) and (min-resolution: 192dpi), screen and (min-width: 1440px) and (min-resolution: 2dppx) {
+  .start__background {
+    background-image: url("../../images/start/start-desktop@2x.jpg");
+  }
+}
 .start__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
