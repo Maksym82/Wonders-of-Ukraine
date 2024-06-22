@@ -1021,4 +1021,27 @@ ul {
   width: 127px;
   height: 90px;
   padding: 0;
+}
+
+.footer__nav {
+  margin-bottom: 32px;
+}
+
+.footer__nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 8px;
+}
+
+.footer__nav-link {
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  cursor: pointer;
+  color: #ffffff;
 }/*# sourceMappingURL=main.css.map */

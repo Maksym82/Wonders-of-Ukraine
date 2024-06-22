@@ -1,22 +1,40 @@
 .footer {
-    max-width: 375px;
-    margin: 0 auto;
-    padding: 16px 0;
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 16px 0;
 }
 
 .footer__logo-link {
-    display: flex;
-    align-items: center;
-    fill: $colorWhite;
-    background-color: transparent;
-    cursor: pointer;
-    width: 127px;
-    height: 90px;
-    margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  fill: $colorWhite;
+  background-color: transparent;
+  cursor: pointer;
+  width: 127px;
+  height: 90px;
+  margin-bottom: 32px;
 }
 
 .footer__logo-icon {
-    width: 127px;
-    height: 90px;
-    padding: 0;
+  width: 127px;
+  height: 90px;
+  padding: 0;
+}
+
+.footer__nav {
+    margin-bottom: 32px;
+}
+
+.footer__nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer__nav-link {
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  cursor: pointer;
+  color: $colorWhite;
 }
