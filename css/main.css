@@ -1224,14 +1224,14 @@ ul {
   background-image: url("../../images/mobile-menu/mobile-menu@1x.jpg");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center bottom, center top;
+  background-position: center bottom;
   background-color: #141a19;
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
-  -webkit-transition: -webkit-transform 500ms linear;
-  transition: -webkit-transform 500ms linear;
-  transition: transform 500ms linear;
-  transition: transform 500ms linear, -webkit-transform 500ms linear;
+  -webkit-transition: -webkit-transform 300ms linear;
+  transition: -webkit-transform 300ms linear;
+  transition: transform 300ms linear;
+  transition: transform 300ms linear, -webkit-transform 300ms linear;
 }
 .mobile-menu.is-open {
   -webkit-transform: translateY(0);
@@ -1280,4 +1280,29 @@ ul {
 }
 .mobile-menu .icon-burger-close {
   stroke: #ffffff;
+}
+.mobile-menu .mobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.mobile-menu .mobile__item:not(:last-child) {
+  margin-bottom: 16px;
+}
+.mobile-menu .mobile__link {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .mobile-menu {
+    background-image: url("../../images/mobile-menu/mobile-menu@2x.jpg");
+  }
 }/*# sourceMappingURL=main.css.map */
