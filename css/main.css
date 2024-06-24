@@ -1007,6 +1007,11 @@ ul {
     padding: 32px 0 16px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .footer {
+    max-width: 1440px;
+  }
+}
 
 @media screen and (min-width: 834px) {
   .footer__wrapper {
@@ -1040,6 +1045,12 @@ ul {
     margin-bottom: 0;
   }
 }
+@media screen and (min-width: 1440px) {
+  .footer__logo-link {
+    width: 260px;
+    height: 168px;
+  }
+}
 
 .footer__logo-icon {
   width: 127px;
@@ -1050,6 +1061,12 @@ ul {
   .footer__logo-icon {
     width: 169px;
     height: 125px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .footer__logo-icon {
+    width: 260px;
+    height: 168px;
   }
 }
 

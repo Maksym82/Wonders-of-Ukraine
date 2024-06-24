@@ -7,6 +7,10 @@
     max-width: 834px;
     padding: 32px 0 16px;
   }
+
+  @media screen and (min-width: 1440px) {
+    max-width: 1440px;
+  }
 }
 
 @media screen and (min-width: 834px) {
@@ -32,6 +36,11 @@
     height: 125px;
     margin-bottom: 0;
   }
+
+  @media screen and (min-width: 1440px) {
+    width: 260px;
+    height: 168px;
+  }
 }
 
 .footer__logo-icon {
@@ -42,6 +51,11 @@
   @media screen and (min-width: 834px) {
     width: 169px;
     height: 125px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 260px;
+    height: 168px;
   }
 }
 
