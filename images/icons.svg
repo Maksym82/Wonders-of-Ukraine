@@ -74,5 +74,9 @@
         <symbol id="icon-scroll-up" viewBox="0 0 32 32">
             <path d="M16 32c8.837 0 16-7.163 16-16s-7.163-16-16-16v0c-8.837 0-16 7.163-16 16s7.163 16 16 16v0zM23.563 16.938c0.587 0.587 0.587 1.538 0 2.119s-1.538 0.587-2.119 0l-5.438-5.438-5.438 5.438c-0.588 0.587-1.537 0.587-2.119 0s-0.588-1.538 0-2.119l6.487-6.5c0.588-0.588 1.538-0.588 2.119 0l6.506 6.5z"></path>
         </symbol>
+        <symbol id="icon-close" viewBox="0 0 32 32">
+            <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.6" d="M24 8l-16 16"></path>
+            <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.6" d="M8 8l16 16"></path>
+        </symbol>
     </defs>
 </svg>
