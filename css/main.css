@@ -1131,9 +1131,6 @@ ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: end;
   gap: 8px;
   margin-bottom: 32px;
 }
@@ -1141,6 +1138,9 @@ ul {
   .address__list {
     gap: 16px;
     margin-bottom: 0;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
   }
 }
 
@@ -1197,4 +1197,18 @@ ul {
   .footer__text {
     font-size: 14px;
   }
+}
+
+#scrollToTop {
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  display: none;
+  cursor: pointer;
+  z-index: 5;
+  opacity: 0.4;
+}
+
+.scroll-up {
+  fill: #ae990b;
 }/*# sourceMappingURL=main.css.map */

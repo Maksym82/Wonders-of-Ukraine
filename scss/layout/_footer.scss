@@ -101,13 +101,13 @@
 .address__list {
   display: flex;
   flex-direction: column;
-  align-items: end;
   gap: 8px;
   margin-bottom: 32px;
 
   @media screen and (min-width: 834px) {
     gap: 16px;
     margin-bottom: 0;
+    align-items: end;
   }
 }
 
