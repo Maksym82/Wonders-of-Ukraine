@@ -1013,6 +1013,10 @@ ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 64px;
   }
 }
 .footer__logo-link {
@@ -1055,8 +1059,6 @@ ul {
 @media screen and (min-width: 834px) {
   .footer__nav {
     margin-bottom: 0;
-    margin-left: 148px;
-    margin-right: 80px;
   }
 }
 
@@ -1098,6 +1100,9 @@ ul {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
     gap: 40px;
   }
 }
@@ -1109,8 +1114,17 @@ ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
   gap: 8px;
   margin-bottom: 32px;
+}
+@media screen and (min-width: 834px) {
+  .address__list {
+    gap: 16px;
+    margin-bottom: 0;
+  }
 }
 
 .address__link {
@@ -1121,6 +1135,11 @@ ul {
   cursor: pointer;
   font-style: normal;
 }
+@media screen and (min-width: 834px) {
+  .address__link {
+    font-size: 18px;
+  }
+}
 
 .footer__soc-list {
   display: -webkit-box;
@@ -1129,6 +1148,14 @@ ul {
   gap: 15px;
   width: 102px;
   margin-bottom: 64px;
+}
+@media screen and (min-width: 834px) {
+  .footer__soc-list {
+    margin-bottom: 0;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
+  }
 }
 
 .footer__soc-link {
@@ -1148,4 +1175,9 @@ ul {
   letter-spacing: 0.01em;
   text-align: center;
   margin-bottom: 0;
+}
+@media screen and (min-width: 834px) {
+  .footer__text {
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=main.css.map */
