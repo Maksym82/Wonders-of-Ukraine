@@ -1221,6 +1221,10 @@ ul {
   padding: 16px 16px 200px;
   width: 100%;
   height: 100%;
+  background-image: url("../../images/mobile-menu/mobile-menu@1x.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center bottom, center top;
   background-color: #141a19;
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
@@ -1241,9 +1245,6 @@ ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 .mobile-menu .mobile-menu-header {
   display: -webkit-box;
