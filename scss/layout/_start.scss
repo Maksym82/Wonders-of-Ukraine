@@ -20,7 +20,7 @@
 }
 
 .start__background {
-  background-image: url('../../images/start/start-mobile-@1x.jpg');
+  background-image: url('../images/start/start-mobile-@1x.jpg');
   width: 375px;
   height: 800px;
   padding-top: 54px;
@@ -34,7 +34,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .start__background {
-    background-image: url('../../images/start/start-mobile-@2x.jpg');
+    background-image: url('../images/start/start-mobile-@2x.jpg');
   }
 }
 

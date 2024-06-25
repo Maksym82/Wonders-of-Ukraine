@@ -813,7 +813,7 @@ ul {
 }
 
 .start__background {
-  background-image: url("../../images/start/start-mobile-@1x.jpg");
+  background-image: url("../images/start/start-mobile-@1x.jpg");
   width: 375px;
   height: 800px;
   padding-top: 54px;
@@ -825,7 +825,7 @@ ul {
 
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .start__background {
-    background-image: url("../../images/start/start-mobile-@2x.jpg");
+    background-image: url("../images/start/start-mobile-@2x.jpg");
   }
 }
 @media screen and (min-width: 834px) {
