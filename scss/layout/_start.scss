@@ -40,7 +40,7 @@
 
 @media screen and (min-width: 834px) {
   .start__background {
-    background-image: url('../../images/start/start-tablet@1x.jpg');
+    background-image: url('../images/start/start-tablet@1x.jpg');
     width: 602px;
     height: 786px;
     padding: 135px 32px;
@@ -50,14 +50,14 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .start__background {
-      background-image: url('../../images/start/start-tablet@2x.jpg');
+      background-image: url('../images/start/start-tablet@2x.jpg');
     }
   }
 }
 
 @media screen and (min-width: 1440px) {
   .start__background {
-    background-image: url('../../images/start/start-desktop@1x.jpg');
+    background-image: url('../images/start/start-desktop@1x.jpg');
     width: 704px;
     height: 840px;
     padding: 135px 32px 135px 376px;
@@ -67,7 +67,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .start__background {
-      background-image: url('../../images/start/start-desktop@2x.jpg');
+      background-image: url('../images/start/start-desktop@2x.jpg');
     }
   }
 }
