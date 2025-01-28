@@ -1,3 +1,5 @@
+/* Utils */
+/* Base */
 /* Base */
 html {
   scroll-behavior: smooth;
@@ -1199,12 +1201,17 @@ ul {
 
 #scrollToTop {
   position: fixed;
-  bottom: 40px;
-  right: 20px;
+  bottom: 28px;
+  left: 75%;
   display: none;
   cursor: pointer;
   z-index: 20;
   opacity: 0.3;
+}
+@media (min-width: 1440px) {
+  #scrollToTop {
+    left: 81%;
+  }
 }
 
 .scroll-up {
