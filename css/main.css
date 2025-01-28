@@ -1108,6 +1108,11 @@ ul {
   }
 }
 
+.footer__nav-link:hover,
+.footer__nav-link:focus {
+  text-decoration: underline;
+}
+
 @media screen and (min-width: 834px) {
   .footer__contacts {
     display: -webkit-box;
@@ -1158,6 +1163,11 @@ ul {
   }
 }
 
+.address__link:hover,
+.address__link:focus {
+  text-decoration: underline;
+}
+
 .footer__soc-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1175,6 +1185,11 @@ ul {
   }
 }
 
+.footer__soc-list a:hover,
+.footer__soc-list a:focus {
+  fill: #ae990b;
+}
+
 .footer__soc-link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1184,6 +1199,8 @@ ul {
           align-items: center;
   fill: #ffffff;
   cursor: pointer;
+  -webkit-transition: fill 0.3s linear;
+  transition: fill 0.3s linear;
 }
 
 .footer__text {
