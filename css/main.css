@@ -165,6 +165,11 @@ ul {
     color: #ffffff;
     text-decoration: none;
     cursor: pointer;
+    -webkit-transition: color 0.25s linear;
+    transition: color 0.25s linear;
+  }
+  .nav__link:hover, .nav__link:focus {
+    color: #ae990b;
   }
 }
 .hero__container {

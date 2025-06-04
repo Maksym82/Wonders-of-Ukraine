@@ -85,5 +85,11 @@
     color: $colorWhite;
     text-decoration: none;
     cursor: pointer;
+    transition: color 0.25s linear;
+
+    &:hover,
+    &:focus {
+      color: $colorStars;
+    }
   }
 }
