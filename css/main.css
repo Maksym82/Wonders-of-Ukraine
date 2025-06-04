@@ -306,7 +306,12 @@ ul {
     height: 54px;
     padding: 16px 52px;
     margin-bottom: 135px;
+    -webkit-transition: background-color 0.25s linear;
+    transition: background-color 0.25s linear;
   }
+}
+.hero__link:hover, .hero__link:focus {
+  background-color: #ae990b;
 }
 
 .hero__soc-list {

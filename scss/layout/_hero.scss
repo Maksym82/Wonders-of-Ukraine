@@ -123,6 +123,12 @@
     height: 54px;
     padding: 16px 52px;
     margin-bottom: 135px;
+    transition: background-color 0.25s linear;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: $colorStars;
   }
 }
 .hero__soc-list {
