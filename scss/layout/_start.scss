@@ -142,6 +142,7 @@
   color: $colorInput;
   outline: none;
   letter-spacing: 0.01em;
+  transition: border 0.35s linear;
 
   @media screen and (min-width: 834px) {
     width: 320px;
@@ -167,6 +168,7 @@
   margin-bottom: 32px;
   outline: none;
   resize: none;
+  transition: border 0.35s linear;
 
   @media screen and (min-width: 834px) {
     width: 320px;
@@ -189,8 +191,14 @@
   color: $colorWhite;
   border: none;
   cursor: pointer;
+  transition: background-color 0.25s linear;
 
   @media screen and (min-width: 834px) {
     width: 320px;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: $colorStars;
   }
 }

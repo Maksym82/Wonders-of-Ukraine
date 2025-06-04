@@ -955,6 +955,8 @@ ul {
   color: #b9b9b9;
   outline: none;
   letter-spacing: 0.01em;
+  -webkit-transition: border 0.35s linear;
+  transition: border 0.35s linear;
 }
 @media screen and (min-width: 834px) {
   .form__input {
@@ -981,6 +983,8 @@ ul {
   margin-bottom: 32px;
   outline: none;
   resize: none;
+  -webkit-transition: border 0.35s linear;
+  transition: border 0.35s linear;
 }
 @media screen and (min-width: 834px) {
   .form__textarea {
@@ -1004,11 +1008,16 @@ ul {
   color: #ffffff;
   border: none;
   cursor: pointer;
+  -webkit-transition: background-color 0.25s linear;
+  transition: background-color 0.25s linear;
 }
 @media screen and (min-width: 834px) {
   .form__button {
     width: 320px;
   }
+}
+.form__button:hover, .form__button:focus {
+  background-color: #ae990b;
 }
 
 .footer {
