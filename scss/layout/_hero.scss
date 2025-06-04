@@ -134,6 +134,7 @@
 .hero__soc-list {
   display: flex;
   gap: 15px;
+
   @media screen and (min-width: 834px) {
     flex-direction: column;
     align-self: end;
@@ -142,4 +143,10 @@
 
 .hero__soc-link {
   fill: $colorWhite;
+  transition: fill 0.25s linear;
+
+  &:hover,
+  &:focus {
+    fill: $colorStars;
+  }
 }

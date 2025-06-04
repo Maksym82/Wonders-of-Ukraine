@@ -333,6 +333,11 @@ ul {
 
 .hero__soc-link {
   fill: #ffffff;
+  -webkit-transition: fill 0.25s linear;
+  transition: fill 0.25s linear;
+}
+.hero__soc-link:hover, .hero__soc-link:focus {
+  fill: #ae990b;
 }
 
 .about {
