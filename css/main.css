@@ -450,14 +450,12 @@ ul {
 .tours {
   max-width: 375px;
   margin: 0 auto;
-  padding-top: 80px;
   padding-bottom: 115px;
   background-color: #141a19;
 }
 @media screen and (min-width: 834px) {
   .tours {
     max-width: 834px;
-    padding-top: 100px;
     padding-bottom: 135px;
   }
 }
@@ -589,6 +587,11 @@ ul {
   background-color: #394014;
   text-decoration: none;
   cursor: pointer;
+  -webkit-transition: background-color 0.25s linear;
+  transition: background-color 0.25s linear;
+}
+.tour__button-link:hover, .tour__button-link:focus {
+  background-color: #ae990b;
 }
 @media screen and (min-width: 834px) {
   .tour__button-link {

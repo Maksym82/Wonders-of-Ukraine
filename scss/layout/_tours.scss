@@ -1,13 +1,11 @@
 .tours {
   max-width: 375px;
   margin: 0 auto;
-  padding-top: 80px;
   padding-bottom: 115px;
   background-color: $colorBg;
 
   @media screen and (min-width: 834px) {
     max-width: 834px;
-    padding-top: 100px;
     padding-bottom: 135px;
 }
 
@@ -126,6 +124,12 @@
   background-color: $colorBut;
   text-decoration: none;
   cursor: pointer;
+  transition: background-color 0.25s linear;
+
+  &:hover,
+  &:focus {
+    background-color: $colorStars;
+  }
 
   @media screen and (min-width: 834px) {
     width: 169px;
