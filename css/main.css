@@ -1,6 +1,21 @@
 /* Utils */
 /* Base */
-/* Base */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a,
+*::before,
+*::after {
+  display: inline-block;
+}
+
 html {
   scroll-behavior: smooth;
 }
