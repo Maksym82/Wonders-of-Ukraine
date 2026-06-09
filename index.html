@@ -10,17 +10,8 @@
     />
 
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
-    <!--Slick-->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
-    />
+    <!-- Swiper -->
+    <link rel="stylesheet" href="./libs/swiper-bundle.min.css" />
     <!--Styles-->
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
@@ -198,293 +189,325 @@
         <div class="container tours__container">
           <h2 class="title">Our tours</h2>
           <div class="slick__list responsive">
-            <!--Image #1-->
-            <div class="slick__item">
-              <picture>
-                <source
-                  media="(max-width: 833px)"
-                  srcset="
-                    ./images/tours/tours-mobile-1-375.webp 1x,
-                    ./images/tours/tours-mobile-1-750.webp 2x
-                  "
-                  type="image/webp"
-                />
+            <!-- Slider main container -->
+            <div class="swiper tours-swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!--Image #1-->
+                <div class="swiper-slide">
+                  <picture>
+                    <source
+                      media="(max-width: 833px)"
+                      srcset="
+                        ./images/tours/tours-mobile-1-375.webp 1x,
+                        ./images/tours/tours-mobile-1-750.webp 2x
+                      "
+                      type="image/webp"
+                    />
 
-                <source
-                  media="(min-width: 1440px)"
-                  srcset="
-                    ./images/tours/tours-desktop-1-704.webp  1x,
-                    ./images/tours/tours-desktop-1-1408.webp 2x
-                  "
-                  type="image/webp"
-                />
-                <source
-                  media="(min-width: 834px)"
-                  srcset="
-                    ./images/tours/tours-tablet-1-834.webp  1x,
-                    ./images/tours/tours-tablet-1-1668.webp 2x
-                  "
-                  type="image/webp"
-                />
-                <img
-                  class="slick__image"
-                  src="./images/tours/tours-1.jpg"
-                  alt="Lake Synevyr"
-                />
-              </picture>
-              <div class="container container__tours">
-                <div class="tour__info-wrapper">
-                  <h3 class="tour__title">Lake Synevyr and Shipit waterfall</h3>
-                  <div class="tour__info-block">
-                    <ul class="tour__info-list">
-                      <li class="tour__info-text">
-                        Departure from Lviv (07:00) / Stryi (08:00)
-                      </li>
-                      <li class="tour__info-text">
-                        Pylypets (overview of Shipit waterfall)
-                      </li>
-                      <li class="tour__info-text">
-                        Synevyr Pass (photographing and viewing of Carpathian
-                        panoramas)
-                      </li>
-                      <li class="tour__info-text">
-                        "Synevyr" National Park (brown bear rehabilitation
-                        center and transition to the lake)
-                      </li>
-                      <li class="tour__info-text">
-                        Stryi (21:00)/Lviv (return by 22:00)
-                      </li>
-                    </ul>
-                    <div class="tour__included">
-                      <h3 class="tour__included-title">Included:</h3>
-                      <ul class="tour__list">
-                        <li class="tour__item">
-                          <svg width="24" height="24">
-                            <use href="./images/icons.svg#icon-bus"></use>
-                          </svg>
-                          Transfer
-                        </li>
-                        <li class="tour__item">
-                          <svg width="24" height="24">
-                            <use href="./images/icons.svg#icon-card"></use>
-                          </svg>
-                          Travel insurance
-                        </li>
-                        <li class="tour__item">
-                          <svg width="24" height="24">
-                            <use href="./images/icons.svg#icon-guide"></use>
-                          </svg>
-                          Professional guide
-                        </li>
-                        <li class="tour__item">
-                          <svg width="24" height="24">
-                            <use href="./images/icons.svg#icon-ticket"></use>
-                          </svg>
-                          Travel insurance
-                        </li>
-                      </ul>
+                    <source
+                      media="(min-width: 1440px)"
+                      srcset="
+                        ./images/tours/tours-desktop-1-704.webp  1x,
+                        ./images/tours/tours-desktop-1-1408.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 834px)"
+                      srcset="
+                        ./images/tours/tours-tablet-1-834.webp  1x,
+                        ./images/tours/tours-tablet-1-1668.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <img
+                      class="slick__image"
+                      src="./images/tours/tours-1.jpg"
+                      alt="Lake Synevyr"
+                    />
+                  </picture>
+                  <div class="container container__tours">
+                    <div class="tour__info-wrapper">
+                      <h3 class="tour__title">
+                        Lake Synevyr and Shipit waterfall
+                      </h3>
+                      <div class="tour__info-block">
+                        <ul class="tour__info-list">
+                          <li class="tour__info-text">
+                            Departure from Lviv (07:00) / Stryi (08:00)
+                          </li>
+                          <li class="tour__info-text">
+                            Pylypets (overview of Shipit waterfall)
+                          </li>
+                          <li class="tour__info-text">
+                            Synevyr Pass (photographing and viewing of
+                            Carpathian panoramas)
+                          </li>
+                          <li class="tour__info-text">
+                            "Synevyr" National Park (brown bear rehabilitation
+                            center and transition to the lake)
+                          </li>
+                          <li class="tour__info-text">
+                            Stryi (21:00)/Lviv (return by 22:00)
+                          </li>
+                        </ul>
+                        <div class="tour__included">
+                          <h3 class="tour__included-title">Included:</h3>
+                          <ul class="tour__list">
+                            <li class="tour__item">
+                              <svg width="24" height="24">
+                                <use href="./images/icons.svg#icon-bus"></use>
+                              </svg>
+                              Transfer
+                            </li>
+                            <li class="tour__item">
+                              <svg width="24" height="24">
+                                <use href="./images/icons.svg#icon-card"></use>
+                              </svg>
+                              Travel insurance
+                            </li>
+                            <li class="tour__item">
+                              <svg width="24" height="24">
+                                <use href="./images/icons.svg#icon-guide"></use>
+                              </svg>
+                              Professional guide
+                            </li>
+                            <li class="tour__item">
+                              <svg width="24" height="24">
+                                <use
+                                  href="./images/icons.svg#icon-ticket"
+                                ></use>
+                              </svg>
+                              Travel insurance
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tour__wrapper">
+                      <div class="tour__button">
+                        <a class="tour__button-link" href="">Book</a>
+                      </div>
+                      <p class="tour__price">Price:</p>
+                      <p class="tour__cost">2000 UAH</p>
                     </div>
                   </div>
                 </div>
-                <div class="tour__wrapper">
-                  <div class="tour__button">
-                    <a class="tour__button-link" href="">Book</a>
+                <!--Image #2-->
+                <div class="swiper-slide">
+                  <picture>
+                    <source
+                      media="(max-width: 833px)"
+                      srcset="
+                        ./images/tours/tours-mobile-2-375.webp 1x,
+                        ./images/tours/tours-mobile-2-750.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 1440px)"
+                      srcset="
+                        ./images/tours/tours-desktop-2-704.webp  1x,
+                        ./images/tours/tours-desktop-2-1408.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 834px)"
+                      srcset="
+                        ./images/tours/tours-tablet-2-834.webp  1x,
+                        ./images/tours/tours-tablet-2-1668.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <img
+                      class="slick__image"
+                      src="./images/tours/tours-2.jpg"
+                      alt="Black Sea Jewel"
+                    />
+                  </picture>
+                  <div class="container">
+                    <div class="tour__info-wrapper">
+                      <h3 class="tour__title">Black Sea Jewel</h3>
+                      <div class="tour__info-block">
+                        <ul class="tour__info-list">
+                          <li class="tour__info-text">
+                            Departure from Odessa (08:00)
+                          </li>
+                          <li class="tour__info-text">
+                            Primorsky Boulevard (city's scenic walk)
+                          </li>
+                          <li class="tour__info-text">
+                            Potemkin Steps (historical site and great city view)
+                          </li>
+                          <li class="tour__info-text">
+                            Odessa Opera and Ballet Theatre (exterior visit)
+                          </li>
+                          <li class="tour__info-text">
+                            Lunch at a local seafood restaurant
+                          </li>
+                          <li class="tour__info-text">
+                            Return to Odessa by 20:00
+                          </li>
+                        </ul>
+                        <div class="tour__included">
+                          <h3 class="tour__included-title">Included:</h3>
+                          <ul class="tour__list">
+                            <li class="tour__item">
+                              <svg width="24" height="24">
+                                <use href="./images/icons.svg#icon-bus"></use>
+                              </svg>
+                              Transfer
+                            </li>
+                            <li class="tour__item">
+                              <svg width="24" height="24">
+                                <use href="./images/icons.svg#icon-card"></use>
+                              </svg>
+                              Travel insurance
+                            </li>
+                            <li class="tour__item">
+                              <svg width="24" height="24">
+                                <use href="./images/icons.svg#icon-guide"></use>
+                              </svg>
+                              Professional guide
+                            </li>
+                            <li class="tour__item">
+                              <svg width="24" height="24">
+                                <use
+                                  href="./images/icons.svg#icon-ticket"
+                                ></use>
+                              </svg>
+                              Travel insurance
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tour__wrapper">
+                      <div class="tour__button">
+                        <a class="tour__button-link" href="">Book</a>
+                      </div>
+                      <p class="tour__price">Price:</p>
+                      <p class="tour__cost">3500 UAH</p>
+                    </div>
                   </div>
-                  <p class="tour__price">Price:</p>
-                  <p class="tour__cost">2000 UAH</p>
+                </div>
+                <!--Image #3-->
+                <div class="swiper-slide">
+                  <picture>
+                    <source
+                      media="(max-width: 833px)"
+                      srcset="
+                        ./images/tours/tours-mobile-3-375.webp 1x,
+                        ./images/tours/tours-mobile-3-750.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 1440px)"
+                      srcset="
+                        ./images/tours/tours-desktop-3-704.webp  1x,
+                        ./images/tours/tours-desktop-3-1408.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 834px)"
+                      srcset="
+                        ./images/tours/tours-tablet-3-834.webp  1x,
+                        ./images/tours/tours-tablet-3-1668.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <img
+                      class="slick__image"
+                      src="./images/tours/tours-3.jpg"
+                      alt="old house and girl"
+                    />
+                  </picture>
+                  <div class="container">
+                    <div class="tour__info-wrapper">
+                      <h3 class="tour__title">
+                        Ancient History & Vibrant Present
+                      </h3>
+                      <div class="tour__info-block">
+                        <ul class="tour__info-list">
+                          <li class="tour__info-text">
+                            Departure from Kiev (08:00)
+                          </li>
+                          <li class="tour__info-text">
+                            St. Sophia's Cathedral (iconic UNESCO World Heritage
+                            site)
+                          </li>
+                          <li class="tour__info-text">
+                            Golden Gate (historical monument visit)
+                          </li>
+                          <li class="tour__info-text">
+                            Bessarabsky Market (tasting local delicacies)
+                          </li>
+                          <li class="tour__info-text">
+                            Kiev Pechersk Lavra (exploration of the significant
+                            monastery)
+                          </li>
+                          <li class="tour__info-text">
+                            Return to Kiev by 20:00
+                          </li>
+                        </ul>
+                        <div class="tour__included">
+                          <h3 class="tour__included-title">Included:</h3>
+                          <ul class="tour__list">
+                            <li class="tour__item">
+                              <svg width="24" height="24">
+                                <use href="./images/icons.svg#icon-bus"></use>
+                              </svg>
+                              Transfer
+                            </li>
+                            <li class="tour__item">
+                              <svg width="24" height="24">
+                                <use href="./images/icons.svg#icon-card"></use>
+                              </svg>
+                              Travel insurance
+                            </li>
+                            <li class="tour__item">
+                              <svg width="24" height="24">
+                                <use href="./images/icons.svg#icon-guide"></use>
+                              </svg>
+                              Professional guide
+                            </li>
+                            <li class="tour__item">
+                              <svg width="24" height="24">
+                                <use
+                                  href="./images/icons.svg#icon-ticket"
+                                ></use>
+                              </svg>
+                              Travel insurance
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tour__wrapper">
+                      <div class="tour__button">
+                        <a class="tour__button-link" href="">Book</a>
+                      </div>
+                      <p class="tour__price">Price:</p>
+                      <p class="tour__cost">3000 UAH</p>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <!--Image #2-->
-            <div class="slick__item">
-              <picture>
-                <source
-                  media="(max-width: 833px)"
-                  srcset="
-                    ./images/tours/tours-mobile-2-375.webp 1x,
-                    ./images/tours/tours-mobile-2-750.webp 2x
-                  "
-                  type="image/webp"
-                />
-                <source
-                  media="(min-width: 1440px)"
-                  srcset="
-                    ./images/tours/tours-desktop-2-704.webp  1x,
-                    ./images/tours/tours-desktop-2-1408.webp 2x
-                  "
-                  type="image/webp"
-                />
-                <source
-                  media="(min-width: 834px)"
-                  srcset="
-                    ./images/tours/tours-tablet-2-834.webp  1x,
-                    ./images/tours/tours-tablet-2-1668.webp 2x
-                  "
-                  type="image/webp"
-                />
-                <img
-                  class="slick__image"
-                  src="./images/tours/tours-2.jpg"
-                  alt="Black Sea Jewel"
-                />
-              </picture>
-              <div class="container">
-                <div class="tour__info-wrapper">
-                  <h3 class="tour__title">Black Sea Jewel</h3>
-                  <div class="tour__info-block">
-                    <ul class="tour__info-list">
-                      <li class="tour__info-text">
-                        Departure from Odessa (08:00)
-                      </li>
-                      <li class="tour__info-text">
-                        Primorsky Boulevard (city's scenic walk)
-                      </li>
-                      <li class="tour__info-text">
-                        Potemkin Steps (historical site and great city view)
-                      </li>
-                      <li class="tour__info-text">
-                        Odessa Opera and Ballet Theatre (exterior visit)
-                      </li>
-                      <li class="tour__info-text">
-                        Lunch at a local seafood restaurant
-                      </li>
-                      <li class="tour__info-text">Return to Odessa by 20:00</li>
-                    </ul>
-                    <div class="tour__included">
-                      <h3 class="tour__included-title">Included:</h3>
-                      <ul class="tour__list">
-                        <li class="tour__item">
-                          <svg width="24" height="24">
-                            <use href="./images/icons.svg#icon-bus"></use>
-                          </svg>
-                          Transfer
-                        </li>
-                        <li class="tour__item">
-                          <svg width="24" height="24">
-                            <use href="./images/icons.svg#icon-card"></use>
-                          </svg>
-                          Travel insurance
-                        </li>
-                        <li class="tour__item">
-                          <svg width="24" height="24">
-                            <use href="./images/icons.svg#icon-guide"></use>
-                          </svg>
-                          Professional guide
-                        </li>
-                        <li class="tour__item">
-                          <svg width="24" height="24">
-                            <use href="./images/icons.svg#icon-ticket"></use>
-                          </svg>
-                          Travel insurance
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="tour__wrapper">
-                  <div class="tour__button">
-                    <a class="tour__button-link" href="">Book</a>
-                  </div>
-                  <p class="tour__price">Price:</p>
-                  <p class="tour__cost">3500 UAH</p>
-                </div>
+
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev">
+                <svg class="swiper_arrow">
+                  <use href="./images/icons.svg#icon-arrow-left"></use>
+                </svg>
               </div>
-            </div>
-            <!--Image #3-->
-            <div class="slick__item">
-              <picture>
-                <source
-                  media="(max-width: 833px)"
-                  srcset="
-                    ./images/tours/tours-mobile-3-375.webp 1x,
-                    ./images/tours/tours-mobile-3-750.webp 2x
-                  "
-                  type="image/webp"
-                />
-                <source
-                  media="(min-width: 1440px)"
-                  srcset="
-                    ./images/tours/tours-desktop-3-704.webp  1x,
-                    ./images/tours/tours-desktop-3-1408.webp 2x
-                  "
-                  type="image/webp"
-                />
-                <source
-                  media="(min-width: 834px)"
-                  srcset="
-                    ./images/tours/tours-tablet-3-834.webp  1x,
-                    ./images/tours/tours-tablet-3-1668.webp 2x
-                  "
-                  type="image/webp"
-                />
-                <img
-                  class="slick__image"
-                  src="./images/tours/tours-3.jpg"
-                  alt="old house and girl"
-                />
-              </picture>
-              <div class="container">
-                <div class="tour__info-wrapper">
-                  <h3 class="tour__title">Ancient History & Vibrant Present</h3>
-                  <div class="tour__info-block">
-                    <ul class="tour__info-list">
-                      <li class="tour__info-text">
-                        Departure from Kiev (08:00)
-                      </li>
-                      <li class="tour__info-text">
-                        St. Sophia's Cathedral (iconic UNESCO World Heritage
-                        site)
-                      </li>
-                      <li class="tour__info-text">
-                        Golden Gate (historical monument visit)
-                      </li>
-                      <li class="tour__info-text">
-                        Bessarabsky Market (tasting local delicacies)
-                      </li>
-                      <li class="tour__info-text">
-                        Kiev Pechersk Lavra (exploration of the significant
-                        monastery)
-                      </li>
-                      <li class="tour__info-text">Return to Kiev by 20:00</li>
-                    </ul>
-                    <div class="tour__included">
-                      <h3 class="tour__included-title">Included:</h3>
-                      <ul class="tour__list">
-                        <li class="tour__item">
-                          <svg width="24" height="24">
-                            <use href="./images/icons.svg#icon-bus"></use>
-                          </svg>
-                          Transfer
-                        </li>
-                        <li class="tour__item">
-                          <svg width="24" height="24">
-                            <use href="./images/icons.svg#icon-card"></use>
-                          </svg>
-                          Travel insurance
-                        </li>
-                        <li class="tour__item">
-                          <svg width="24" height="24">
-                            <use href="./images/icons.svg#icon-guide"></use>
-                          </svg>
-                          Professional guide
-                        </li>
-                        <li class="tour__item">
-                          <svg width="24" height="24">
-                            <use href="./images/icons.svg#icon-ticket"></use>
-                          </svg>
-                          Travel insurance
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="tour__wrapper">
-                  <div class="tour__button">
-                    <a class="tour__button-link" href="">Book</a>
-                  </div>
-                  <p class="tour__price">Price:</p>
-                  <p class="tour__cost">3000 UAH</p>
-                </div>
+              <div class="swiper-button-next">
+                <svg class="swiper_arrow">
+                  <use href="./images/icons.svg#icon-arrow-right"></use>
+                </svg>
               </div>
             </div>
           </div>
@@ -1115,22 +1138,14 @@
         <p class="footer__text">&copy; All Rights Reserved</p>
       </div>
     </footer>
+
+    <script src="./libs/swiper-bundle.min.js"></script>
+
+    <script src="./js/main.js"></script>
     <script src="./js/slick.js" type="module"></script>
     <script src="./js/scrollup.js"></script>
     <script src="./js/mobile-menu.js"></script>
 
-    <script
-      type="text/javascript"
-      src="//code.jquery.com/jquery-1.11.0.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-    ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
   </body>
 </html>

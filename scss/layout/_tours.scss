@@ -19,8 +19,6 @@
   }
 }
 
-
-
 @media screen and (min-width: 1440px) {
   .tour__info-wrapper {
     width: 510px;
@@ -164,9 +162,14 @@
   margin-right: 72px;
 }
 
-/* Slick */
-.my-slick-prev,
-.my-slick-next {
+/* Swiper */
+// .swiper-button-prev::after,
+// .swiper-button-next::after {
+//   display: none;
+// }
+
+.swiper-button-prev,
+.swiper-button-next {
   position: absolute;
   display: flex;
   align-items: center;
@@ -180,7 +183,7 @@
   background-color: transparent;
 }
 
-.my-slick-prev {
+.swiper-button-prev {
   bottom: -55px;
   left: 16px;
   width: 114px;
@@ -199,7 +202,7 @@
   }
 }
 
-.my-slick-next {
+.swiper-button-next {
   bottom: -55px;
   right: 16px;
   width: 114px;
@@ -217,10 +220,10 @@
   }
 }
 
-.slick_arrow {
+.swiper_arrow {
   width: 114px;
   height: 30px;
-  fill: $colorWhite;
+  fill: $colorWhite!important;
 
   @media screen and (min-width: 834px) {
     width: 144px;
@@ -229,6 +232,10 @@
 
 .slick__image {
   border-radius: 6px;
+
+  @media (min-width: 834px) {
+    width: 834px;
+  }
 
   @media screen and (min-width: 1440px) {
     width: 704px;

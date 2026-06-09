@@ -661,9 +661,9 @@ ul {
   margin-right: 72px;
 }
 
-/* Slick */
-.my-slick-prev,
-.my-slick-next {
+/* Swiper */
+.swiper-button-prev,
+.swiper-button-next {
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -683,7 +683,7 @@ ul {
   background-color: transparent;
 }
 
-.my-slick-prev {
+.swiper-button-prev {
   bottom: -55px;
   left: 16px;
   width: 114px;
@@ -691,50 +691,55 @@ ul {
   z-index: 10;
 }
 @media screen and (min-width: 834px) {
-  .my-slick-prev {
+  .swiper-button-prev {
     width: 144px;
     left: 153px;
     bottom: -75px;
   }
 }
 @media screen and (min-width: 1440px) {
-  .my-slick-prev {
+  .swiper-button-prev {
     left: 32px;
   }
 }
 
-.my-slick-next {
+.swiper-button-next {
   bottom: -55px;
   right: 16px;
   width: 114px;
   height: 45px;
 }
 @media screen and (min-width: 834px) {
-  .my-slick-next {
+  .swiper-button-next {
     width: 144px;
     right: 153px;
     bottom: -75px;
   }
 }
 @media screen and (min-width: 1440px) {
-  .my-slick-next {
+  .swiper-button-next {
     right: 32px;
   }
 }
 
-.slick_arrow {
+.swiper_arrow {
   width: 114px;
   height: 30px;
-  fill: #ffffff;
+  fill: #ffffff !important;
 }
 @media screen and (min-width: 834px) {
-  .slick_arrow {
+  .swiper_arrow {
     width: 144px;
   }
 }
 
 .slick__image {
   border-radius: 6px;
+}
+@media (min-width: 834px) {
+  .slick__image {
+    width: 834px;
+  }
 }
 @media screen and (min-width: 1440px) {
   .slick__image {
@@ -788,7 +793,7 @@ ul {
 
 .reviews__item {
   padding: 32px;
-  width: 343px;
+  max-width: 343px;
   height: 343px;
   border-radius: 4px;
   border: 1px solid #ffffff;
@@ -869,7 +874,7 @@ ul {
 
 .start__background {
   background-image: url("../images/start/start-mobile-@1x.jpg");
-  width: 375px;
+  max-width: 375px;
   height: 800px;
   padding-top: 54px;
   padding-bottom: 54px;
@@ -986,7 +991,7 @@ ul {
 .form__input {
   border: 1px solid #ffffff;
   padding: 14px 12px;
-  width: 343px;
+  max-width: 343px;
   height: 50px;
   font-weight: 400;
   font-size: 16px;
@@ -1011,7 +1016,7 @@ ul {
 .form__textarea {
   border: 1px solid #ffffff;
   padding: 14px 12px;
-  width: 343px;
+  max-width: 343px;
   height: 102px;
   font-family: "Lato", sans-serif;
   background-color: #141a19;
@@ -1038,7 +1043,7 @@ ul {
 
 .form__button {
   padding: 16px 52px;
-  width: 343px;
+  max-width: 343px;
   height: 54px;
   background-color: #394014;
   font-weight: 400;

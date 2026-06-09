@@ -21,7 +21,7 @@
 
 .start__background {
   background-image: url('../images/start/start-mobile-@1x.jpg');
-  width: 375px;
+  max-width: 375px;
   height: 800px;
   padding-top: 54px;
   padding-bottom: 54px;
@@ -133,7 +133,7 @@
 .form__input {
   border: 1px solid $colorWhite;
   padding: 14px 12px;
-  width: 343px;
+  max-width: 343px;
   height: 50px;
   font-weight: 400;
   font-size: 16px;
@@ -156,7 +156,7 @@
 .form__textarea {
   border: 1px solid $colorWhite;
   padding: 14px 12px;
-  width: 343px;
+  max-width: 343px;
   height: 102px;
   font-family: 'Lato', sans-serif;
   background-color: $colorBg;
@@ -181,7 +181,7 @@
 
 .form__button {
   padding: 16px 52px;
-  width: 343px;
+  max-width: 343px;
   height: 54px;
   background-color: $colorBut;
   font-weight: 400;
