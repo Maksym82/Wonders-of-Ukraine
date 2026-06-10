@@ -6,7 +6,7 @@
 
   @media screen and (min-width: 834px) {
     max-width: 834px;
-    padding-bottom: 135px;
+    padding-bottom: 100px;
   }
 
   @media screen and (min-width: 1440px) {
@@ -163,11 +163,6 @@
 }
 
 /* Swiper */
-// .swiper-button-prev::after,
-// .swiper-button-next::after {
-//   display: none;
-// }
-
 .swiper-wrapper {
   margin-bottom: 68px;
 
@@ -192,39 +187,39 @@
 }
 
 .swiper-button-prev {
-  top: 1024px!important;
-  left: 16px!important;
+  top: 1024px !important;
+  left: 16px !important;
   width: 114px;
   height: 45px;
   z-index: 10;
 
   @media screen and (min-width: 834px) {
     width: 144px;
-    left: 153px;
-    bottom: -75px;
+    top: 1090px !important;
+    left: 169px !important;
   }
 
   @media screen and (min-width: 1440px) {
-    left: 32px;
-    bottom: 575px;
+    left: 32px !important;
+    top: 560px !important;
   }
 }
 
 .swiper-button-next {
-  top: 1024px!important;
-  right: 16px!important;
+  top: 1024px !important;
+  right: 16px !important;
   width: 114px;
   height: 45px;
 
   @media screen and (min-width: 834px) {
     width: 144px;
-    right: 153px;
-    bottom: -75px;
+    top: 1090px !important;
+    right: 169px !important;
   }
 
   @media screen and (min-width: 1440px) {
-    right: 32px;
-    // bottom: 575px;
+    right: 32px !important;
+    top: 560px !important;
   }
 }
 

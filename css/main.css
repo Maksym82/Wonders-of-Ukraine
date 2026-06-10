@@ -494,7 +494,7 @@ ul {
 @media screen and (min-width: 834px) {
   .tours {
     max-width: 834px;
-    padding-bottom: 135px;
+    padding-bottom: 100px;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -702,14 +702,14 @@ ul {
 @media screen and (min-width: 834px) {
   .swiper-button-prev {
     width: 144px;
-    left: 153px;
-    bottom: -75px;
+    top: 1090px !important;
+    left: 169px !important;
   }
 }
 @media screen and (min-width: 1440px) {
   .swiper-button-prev {
-    left: 32px;
-    bottom: 575px;
+    left: 32px !important;
+    top: 560px !important;
   }
 }
 
@@ -722,13 +722,14 @@ ul {
 @media screen and (min-width: 834px) {
   .swiper-button-next {
     width: 144px;
-    right: 153px;
-    bottom: -75px;
+    top: 1090px !important;
+    right: 169px !important;
   }
 }
 @media screen and (min-width: 1440px) {
   .swiper-button-next {
-    right: 32px;
+    right: 32px !important;
+    top: 560px !important;
   }
 }
 
