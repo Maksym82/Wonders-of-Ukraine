@@ -603,143 +603,215 @@
       <section class="gallery" id="gallery">
         <div class="container">
           <h2 class="title">Gallery</h2>
-          <div class="slick__list responsive">
-            <!--Image #1-->
-            <div class="gallery__item">
-              <img
-                class="slick__box"
-                srcset="
-                  ./images/gallery/gallery-mobile-1-343.webp  343w,
-                  ./images/gallery/gallery-mobile-1-686.webp  686w,
-                  ./images/gallery/gallery-tablet-1-377.webp  377w,
-                  ./images/gallery/gallery-tablet-1-754.webp  754w,
-                  ./images/gallery/gallery-desktop-1-400.webp 400w,
-                  ./images/gallery/gallery-desktop-1-800.webp 800w
-                "
-                sizes="(min-width: 1440px) 400px, (min-width: 834px) 377px, (min-width: 375px) 343px"
-                alt="winter forest"
-                src="./images/gallery/gallery-1.jpg"
-              />
+          <!-- Slider main container -->
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <picture>
+                  <!-- Desktop 1440 -->
+                  <source
+                    srcset="
+                      ./images/gallery/image-1/gallery-desktop-1-400.avif 1x,
+                      ./images/gallery/image-1/gallery-desktop-1-800.avif 2x
+                    "
+                    type="image/avif"
+                    media="(min-width: 1440px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/gallery/image-1/gallery-desktop-1-400.webp 1x,
+                      ./images/gallery/image-1/gallery-desktop-1-800.webp 2x
+                    "
+                    type="image/webp"
+                    media="(min-width: 1440px)"
+                  />
+                  <!-- Tablet 834 -->
+                  <source
+                    srcset="
+                      ./images/gallery/image-1/gallery-tablet-1-377.avif 1x,
+                      ./images/gallery/image-1/gallery-tablet-1-754.avif 2x
+                    "
+                    type="image/avif"
+                    media="(min-width: 834px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/gallery/image-1/gallery-tablet-1-377.webp 1x,
+                      ./images/gallery/image-1/gallery-tablet-1-754.webp 2x
+                    "
+                    type="image/webp"
+                    media="(min-width: 834px)"
+                  />
+                  <!-- Mobile -->
+                  <source
+                    srcset="
+                      ./images/gallery/image-1/gallery-mobile-1-343.avif 1x,
+                      ./images/gallery/image-1/gallery-mobile-1-686.avif 2x
+                    "
+                    type="image/avif"
+                  />
+                  <source
+                    srcset="
+                      ./images/gallery/image-1/gallery-mobile-1-343.webp 1x,
+                      ./images/gallery/image-1/gallery-mobile-1-686.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <!-- Fallback JPEG image -->
+                  <img
+                    class="slick__box"
+                    srcset="
+                      ./images/gallery/image-1/gallery-1@1x.jpg 1x,
+                      ./images/gallery/image-1/gallery-1@2x.jpg 2x
+                    "
+                    src="./images/gallery/gallery-1.jpg"
+                    alt="winter forest"
+                  />
+                </picture>
+              </div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
             </div>
-            <!--Image #2-->
-            <div class="gallery__item">
-              <img
-                class="slick__box"
-                srcset="
-                  ./images/gallery/gallery-mobile-2-343.webp  343w,
-                  ./images/gallery/gallery-mobile-2-686.webp  686w,
-                  ./images/gallery/gallery-tablet-2-377.webp  377w,
-                  ./images/gallery/gallery-tablet-2-754.webp  754w,
-                  ./images/gallery/gallery-desktop-2-400.webp 400w,
-                  ./images/gallery/gallery-desktop-2-800.webp 800w
-                "
-                sizes="(min-width: 1440px) 400px, (min-width: 834px) 377px, (min-width: 375px) 343px"
-                alt="night sky"
-                src="./images/gallery/gallery-2.jpg"
-              />
-            </div>
-            <!--Image #3-->
-            <div class="gallery__item">
-              <img
-                class="slick__box"
-                srcset="
-                  ./images/gallery/gallery-mobile-3-343.webp  343w,
-                  ./images/gallery/gallery-mobile-3-686.webp  686w,
-                  ./images/gallery/gallery-tablet-3-377.webp  377w,
-                  ./images/gallery/gallery-tablet-3-754.webp  754w,
-                  ./images/gallery/gallery-desktop-3-400.webp 400w,
-                  ./images/gallery/gallery-desktop-3-800.webp 800w
-                "
-                sizes="(min-width: 1440px) 400px, (min-width: 834px) 377px, (min-width: 375px) 343px"
-                alt="train in the forest"
-                src="./images/gallery/gallery-3.jpg"
-              />
-            </div>
-            <!--Image #4-->
-            <div class="gallery__item">
-              <img
-                class="slick__box"
-                srcset="
-                  ./images/gallery/gallery-mobile-4-343.webp  343w,
-                  ./images/gallery/gallery-mobile-4-686.webp  686w,
-                  ./images/gallery/gallery-tablet-4-377.webp  377w,
-                  ./images/gallery/gallery-tablet-4-754.webp  754w,
-                  ./images/gallery/gallery-desktop-4-400.webp 400w,
-                  ./images/gallery/gallery-desktop-4-800.webp 800w
-                "
-                sizes="(min-width: 1440px) 400px, (min-width: 834px) 377px, (min-width: 375px) 343px"
-                alt="house in the forest"
-                src="./images/gallery/gallery-4.jpg"
-              />
-            </div>
-            <!--Image #5-->
-            <div class="gallery__item">
-              <img
-                class="slick__box"
-                srcset="
-                  ./images/gallery/gallery-mobile-5-343.webp  343w,
-                  ./images/gallery/gallery-mobile-5-686.webp  686w,
-                  ./images/gallery/gallery-tablet-5-377.webp  377w,
-                  ./images/gallery/gallery-tablet-5-754.webp  754w,
-                  ./images/gallery/gallery-desktop-5-400.webp 400w,
-                  ./images/gallery/gallery-desktop-5-800.webp 800w
-                "
-                sizes="(min-width: 1440px) 400px, (min-width: 834px) 377px, (min-width: 375px) 343px"
-                alt="forest"
-                src="./images/gallery/gallery-5.jpg"
-              />
-            </div>
-            <!--Image #6-->
-            <div class="gallery__item">
-              <img
-                class="slick__box"
-                srcset="
-                  ./images/gallery/gallery-mobile-6-343.webp  343w,
-                  ./images/gallery/gallery-mobile-6-686.webp  686w,
-                  ./images/gallery/gallery-tablet-6-377.webp  377w,
-                  ./images/gallery/gallery-tablet-6-754.webp  754w,
-                  ./images/gallery/gallery-desktop-6-400.webp 400w,
-                  ./images/gallery/gallery-desktop-6-800.webp 800w
-                "
-                sizes="(min-width: 1440px) 400px, (min-width: 834px) 377px, (min-width: 375px) 343px"
-                alt="blue lake"
-                src="./images/gallery/gallery-6.jpg"
-              />
-            </div>
-            <!--Image #7-->
-            <div class="gallery__item">
-              <img
-                class="slick__box"
-                srcset="
-                  ./images/gallery/gallery-mobile-7-343.webp  343w,
-                  ./images/gallery/gallery-mobile-7-686.webp  686w,
-                  ./images/gallery/gallery-tablet-7-377.webp  377w,
-                  ./images/gallery/gallery-tablet-7-754.webp  754w,
-                  ./images/gallery/gallery-desktop-7-400.webp 400w,
-                  ./images/gallery/gallery-desktop-7-800.webp 800w
-                "
-                sizes="(min-width: 1440px) 400px, (min-width: 834px) 377px, (min-width: 375px) 343px"
-                alt="pink lake"
-                src="./images/gallery/gallery-7.jpg"
-              />
-            </div>
-            <!--Image #8-->
-            <div class="gallery__item">
-              <img
-                class="slick__box"
-                srcset="
-                  ./images/gallery/gallery-mobile-8-343.webp  343w,
-                  ./images/gallery/gallery-mobile-8-686.webp  686w,
-                  ./images/gallery/gallery-tablet-8-377.webp  377w,
-                  ./images/gallery/gallery-tablet-8-754.webp  754w,
-                  ./images/gallery/gallery-desktop-8-400.webp 400w,
-                  ./images/gallery/gallery-desktop-8-800.webp 800w
-                "
-                sizes="(min-width: 1440px) 400px, (min-width: 834px) 377px, (min-width: 375px) 343px"
-                alt="old castle"
-                src="./images/gallery/gallery-8.jpg"
-              />
-            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+          <!--Image #1-->
+          <div class="gallery__item">
+            <img
+              class="slick__box"
+              srcset="
+                ./images/gallery/gallery-mobile-1-343.webp  343w,
+                ./images/gallery/gallery-mobile-1-686.webp  686w,
+                ./images/gallery/gallery-tablet-1-377.webp  377w,
+                ./images/gallery/gallery-tablet-1-754.webp  754w,
+                ./images/gallery/gallery-desktop-1-400.webp 400w,
+                ./images/gallery/gallery-desktop-1-800.webp 800w
+              "
+              sizes="(min-width: 1440px) 400px, (min-width: 834px) 377px, (min-width: 375px) 343px"
+            />
+          </div>
+          <!--Image #2-->
+          <div class="gallery__item">
+            <img
+              class="slick__box"
+              srcset="
+                ./images/gallery/gallery-mobile-2-343.webp  343w,
+                ./images/gallery/gallery-mobile-2-686.webp  686w,
+                ./images/gallery/gallery-tablet-2-377.webp  377w,
+                ./images/gallery/gallery-tablet-2-754.webp  754w,
+                ./images/gallery/gallery-desktop-2-400.webp 400w,
+                ./images/gallery/gallery-desktop-2-800.webp 800w
+              "
+              sizes="(min-width: 1440px) 400px, (min-width: 834px) 377px, (min-width: 375px) 343px"
+              alt="night sky"
+              src="./images/gallery/gallery-2.jpg"
+            />
+          </div>
+          <!--Image #3-->
+          <div class="gallery__item">
+            <img
+              class="slick__box"
+              srcset="
+                ./images/gallery/gallery-mobile-3-343.webp  343w,
+                ./images/gallery/gallery-mobile-3-686.webp  686w,
+                ./images/gallery/gallery-tablet-3-377.webp  377w,
+                ./images/gallery/gallery-tablet-3-754.webp  754w,
+                ./images/gallery/gallery-desktop-3-400.webp 400w,
+                ./images/gallery/gallery-desktop-3-800.webp 800w
+              "
+              sizes="(min-width: 1440px) 400px, (min-width: 834px) 377px, (min-width: 375px) 343px"
+              alt="train in the forest"
+              src="./images/gallery/gallery-3.jpg"
+            />
+          </div>
+          <!--Image #4-->
+          <div class="gallery__item">
+            <img
+              class="slick__box"
+              srcset="
+                ./images/gallery/gallery-mobile-4-343.webp  343w,
+                ./images/gallery/gallery-mobile-4-686.webp  686w,
+                ./images/gallery/gallery-tablet-4-377.webp  377w,
+                ./images/gallery/gallery-tablet-4-754.webp  754w,
+                ./images/gallery/gallery-desktop-4-400.webp 400w,
+                ./images/gallery/gallery-desktop-4-800.webp 800w
+              "
+              sizes="(min-width: 1440px) 400px, (min-width: 834px) 377px, (min-width: 375px) 343px"
+              alt="house in the forest"
+              src="./images/gallery/gallery-4.jpg"
+            />
+          </div>
+          <!--Image #5-->
+          <div class="gallery__item">
+            <img
+              class="slick__box"
+              srcset="
+                ./images/gallery/gallery-mobile-5-343.webp  343w,
+                ./images/gallery/gallery-mobile-5-686.webp  686w,
+                ./images/gallery/gallery-tablet-5-377.webp  377w,
+                ./images/gallery/gallery-tablet-5-754.webp  754w,
+                ./images/gallery/gallery-desktop-5-400.webp 400w,
+                ./images/gallery/gallery-desktop-5-800.webp 800w
+              "
+              sizes="(min-width: 1440px) 400px, (min-width: 834px) 377px, (min-width: 375px) 343px"
+              alt="forest"
+              src="./images/gallery/gallery-5.jpg"
+            />
+          </div>
+          <!--Image #6-->
+          <div class="gallery__item">
+            <img
+              class="slick__box"
+              srcset="
+                ./images/gallery/gallery-mobile-6-343.webp  343w,
+                ./images/gallery/gallery-mobile-6-686.webp  686w,
+                ./images/gallery/gallery-tablet-6-377.webp  377w,
+                ./images/gallery/gallery-tablet-6-754.webp  754w,
+                ./images/gallery/gallery-desktop-6-400.webp 400w,
+                ./images/gallery/gallery-desktop-6-800.webp 800w
+              "
+              sizes="(min-width: 1440px) 400px, (min-width: 834px) 377px, (min-width: 375px) 343px"
+              alt="blue lake"
+              src="./images/gallery/gallery-6.jpg"
+            />
+          </div>
+          <!--Image #7-->
+          <div class="gallery__item">
+            <img
+              class="slick__box"
+              srcset="
+                ./images/gallery/gallery-mobile-7-343.webp  343w,
+                ./images/gallery/gallery-mobile-7-686.webp  686w,
+                ./images/gallery/gallery-tablet-7-377.webp  377w,
+                ./images/gallery/gallery-tablet-7-754.webp  754w,
+                ./images/gallery/gallery-desktop-7-400.webp 400w,
+                ./images/gallery/gallery-desktop-7-800.webp 800w
+              "
+              sizes="(min-width: 1440px) 400px, (min-width: 834px) 377px, (min-width: 375px) 343px"
+              alt="pink lake"
+              src="./images/gallery/gallery-7.jpg"
+            />
+          </div>
+          <!--Image #8-->
+          <div class="gallery__item">
+            <img
+              class="slick__box"
+              srcset="
+                ./images/gallery/gallery-mobile-8-343.webp  343w,
+                ./images/gallery/gallery-mobile-8-686.webp  686w,
+                ./images/gallery/gallery-tablet-8-377.webp  377w,
+                ./images/gallery/gallery-tablet-8-754.webp  754w,
+                ./images/gallery/gallery-desktop-8-400.webp 400w,
+                ./images/gallery/gallery-desktop-8-800.webp 800w
+              "
+              sizes="(min-width: 1440px) 400px, (min-width: 834px) 377px, (min-width: 375px) 343px"
+              alt="old castle"
+              src="./images/gallery/gallery-8.jpg"
+            />
           </div>
         </div>
       </section>
