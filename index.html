@@ -454,32 +454,62 @@
                 <!--Image #3-->
                 <div class="swiper-slide">
                   <picture>
+                    <!-- Desktop 1440 -->
                     <source
-                      media="(max-width: 833px)"
                       srcset="
-                        ./images/tours/tours-mobile-3-375.webp 1x,
-                        ./images/tours/tours-mobile-3-750.webp 2x
+                        ./images/tours/image-3/tours-desktop-3-704.avif  1x,
+                        ./images/tours/image-3/tours-desktop-3-1408.avif 2x
                       "
-                      type="image/webp"
-                    />
-                    <source
+                      type="image/avif"
                       media="(min-width: 1440px)"
-                      srcset="
-                        ./images/tours/tours-desktop-3-704.webp  1x,
-                        ./images/tours/tours-desktop-3-1408.webp 2x
-                      "
-                      type="image/webp"
                     />
                     <source
-                      media="(min-width: 834px)"
                       srcset="
-                        ./images/tours/tours-tablet-3-834.webp  1x,
-                        ./images/tours/tours-tablet-3-1668.webp 2x
+                        ./images/tours/image-3/tours-desktop-3-704.webp  1x,
+                        ./images/tours/image-3/tours-desktop-3-1408.webp 2x
+                      "
+                      type="image/webp"
+                      media="(min-width: 1440px)"
+                    />
+                    <!-- Tablet 834 -->
+                    <source
+                      srcset="
+                        ./images/tours/image-3/tours-tablet-3-834.avif  1x,
+                        ./images/tours/image-3/tours-tablet-3-1668.avif 2x
+                      "
+                      type="image/avif"
+                      media="(min-width: 834px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/tours/image-3/tours-tablet-3-834.webp  1x,
+                        ./images/tours/image-3/tours-tablet-3-1668.webp 2x
+                      "
+                      type="image/webp"
+                      media="(min-width: 834px)"
+                    />
+                    <!-- Mobile -->
+                    <source
+                      srcset="
+                        ./images/tours/image-3/tours-mobile-3-375.avif 1x,
+                        ./images/tours/image-3/tours-mobile-3-750.avif 2x
+                      "
+                      type="image/avif"
+                    />
+                    <source
+                      srcset="
+                        ./images/tours/image-3/tours-mobile-3-375.webp 1x,
+                        ./images/tours/image-3/tours-mobile-3-750.webp 2x
                       "
                       type="image/webp"
                     />
+                    <!-- Fallback JPEG image -->
                     <img
                       class="tours__image"
+                      srcset="
+                        ./images/tours/image-3/tours-3@1x.jpg 1x,
+                        ./images/tours/image-3/tours-3@2x.jpg 2x
+                      "
                       src="./images/tours/tours-3.jpg"
                       alt="old house and girl"
                     />
