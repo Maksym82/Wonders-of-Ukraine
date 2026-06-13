@@ -607,7 +607,7 @@
           <div class="swiper">
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
-              <!-- Slides -->
+              <!-- Image #1 -->
               <div class="swiper-slide">
                 <picture>
                   <!-- Desktop 1440 -->
@@ -661,7 +661,7 @@
                   />
                   <!-- Fallback JPEG image -->
                   <img
-                    class="slick__box"
+                    class="gallery__image"
                     srcset="
                       ./images/gallery/image-1/gallery-1@1x.jpg 1x,
                       ./images/gallery/image-1/gallery-1@2x.jpg 2x
@@ -671,7 +671,70 @@
                   />
                 </picture>
               </div>
-              <div class="swiper-slide">Slide 2</div>
+              <!-- Image #2 -->
+              <div class="swiper-slide">
+                <picture>
+                  <!-- Desktop 1440 -->
+                  <source
+                    srcset="
+                      ./images/gallery/image-2/gallery-desktop-2-400.avif 1x,
+                      ./images/gallery/image-2/gallery-desktop-2-800.avif 2x
+                    "
+                    type="image/avif"
+                    media="(min-width: 1440px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/gallery/image-2/gallery-desktop-2-400.webp 1x,
+                      ./images/gallery/image-2/gallery-desktop-2-800.webp 2x
+                    "
+                    type="image/webp"
+                    media="(min-width: 1440px)"
+                  />
+                  <!-- Tablet 834 -->
+                  <source
+                    srcset="
+                      ./images/gallery/image-2/gallery-tablet-2-377.avif 1x,
+                      ./images/gallery/image-2/gallery-tablet-2-754.avif 2x
+                    "
+                    type="image/avif"
+                    media="(min-width: 834px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/gallery/image-2/gallery-tablet-2-377.webp 1x,
+                      ./images/gallery/image-2/gallery-tablet-2-754.webp 2x
+                    "
+                    type="image/webp"
+                    media="(min-width: 834px)"
+                  />
+                  <!-- Mobile -->
+                  <source
+                    srcset="
+                      ./images/gallery/image-2/gallery-mobile-2-343.avif 1x,
+                      ./images/gallery/image-2/gallery-mobile-2-686.avif 2x
+                    "
+                    type="image/avif"
+                  />
+                  <source
+                    srcset="
+                      ./images/gallery/image-2/gallery-mobile-2-343.webp 1x,
+                      ./images/gallery/image-2/gallery-mobile-2-686.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <!-- Fallback JPEG image -->
+                  <img
+                    class="gallery__image"
+                    srcset="
+                      ./images/gallery/image-2/gallery-2@1x.jpg 1x,
+                      ./images/gallery/image-2/gallery-2@2x.jpg 2x
+                    "
+                    src="./images/gallery/gallery-2.jpg"
+                    alt="night sky"
+                  />
+                </picture>
+              </div>
               <div class="swiper-slide">Slide 3</div>
             </div>
 
@@ -679,38 +742,7 @@
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
           </div>
-          <!--Image #1-->
-          <div class="gallery__item">
-            <img
-              class="slick__box"
-              srcset="
-                ./images/gallery/gallery-mobile-1-343.webp  343w,
-                ./images/gallery/gallery-mobile-1-686.webp  686w,
-                ./images/gallery/gallery-tablet-1-377.webp  377w,
-                ./images/gallery/gallery-tablet-1-754.webp  754w,
-                ./images/gallery/gallery-desktop-1-400.webp 400w,
-                ./images/gallery/gallery-desktop-1-800.webp 800w
-              "
-              sizes="(min-width: 1440px) 400px, (min-width: 834px) 377px, (min-width: 375px) 343px"
-            />
-          </div>
-          <!--Image #2-->
-          <div class="gallery__item">
-            <img
-              class="slick__box"
-              srcset="
-                ./images/gallery/gallery-mobile-2-343.webp  343w,
-                ./images/gallery/gallery-mobile-2-686.webp  686w,
-                ./images/gallery/gallery-tablet-2-377.webp  377w,
-                ./images/gallery/gallery-tablet-2-754.webp  754w,
-                ./images/gallery/gallery-desktop-2-400.webp 400w,
-                ./images/gallery/gallery-desktop-2-800.webp 800w
-              "
-              sizes="(min-width: 1440px) 400px, (min-width: 834px) 377px, (min-width: 375px) 343px"
-              alt="night sky"
-              src="./images/gallery/gallery-2.jpg"
-            />
-          </div>
+          
           <!--Image #3-->
           <div class="gallery__item">
             <img
