@@ -926,28 +926,75 @@
                   />
                 </picture>
               </div>
+              <!-- Image #6 -->
+              <div class="swiper-slide">
+                <picture>
+                  <!-- Desktop 1440 -->
+                  <source
+                    srcset="
+                      ./images/gallery/image-6/gallery-desktop-6-400.avif 1x,
+                      ./images/gallery/image-6/gallery-desktop-6-800.avif 2x
+                    "
+                    type="image/avif"
+                    media="(min-width: 1440px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/gallery/image-6/gallery-desktop-6-400.webp 1x,
+                      ./images/gallery/image-6/gallery-desktop-6-800.webp 2x
+                    "
+                    type="image/webp"
+                    media="(min-width: 1440px)"
+                  />
+                  <!-- Tablet 834 -->
+                  <source
+                    srcset="
+                      ./images/gallery/image-6/gallery-tablet-6-377.avif 1x,
+                      ./images/gallery/image-6/gallery-tablet-6-754.avif 2x
+                    "
+                    type="image/avif"
+                    media="(min-width: 834px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/gallery/image-6/gallery-tablet-6-377.webp 1x,
+                      ./images/gallery/image-6/gallery-tablet-6-754.webp 2x
+                    "
+                    type="image/webp"
+                    media="(min-width: 834px)"
+                  />
+                  <!-- Mobile -->
+                  <source
+                    srcset="
+                      ./images/gallery/image-6/gallery-mobile-6-343.avif 1x,
+                      ./images/gallery/image-6/gallery-mobile-6-686.avif 2x
+                    "
+                    type="image/avif"
+                  />
+                  <source
+                    srcset="
+                      ./images/gallery/image-6/gallery-mobile-6-343.webp 1x,
+                      ./images/gallery/image-6/gallery-mobile-6-686.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <!-- Fallback JPEG image -->
+                  <img
+                    class="gallery__image"
+                    srcset="
+                      ./images/gallery/image-6/gallery-6@1x.jpg 1x,
+                      ./images/gallery/image-6/gallery-6@2x.jpg 2x
+                    "
+                    src="./images/gallery/gallery-6.jpg"
+                    alt="blue lake"
+                  />
+                </picture>
+              </div>
             </div>
 
             <!-- If we need navigation buttons -->
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
-          </div>
-          <!--Image #6-->
-          <div class="gallery__item">
-            <img
-              class="slick__box"
-              srcset="
-                ./images/gallery/gallery-mobile-6-343.webp  343w,
-                ./images/gallery/gallery-mobile-6-686.webp  686w,
-                ./images/gallery/gallery-tablet-6-377.webp  377w,
-                ./images/gallery/gallery-tablet-6-754.webp  754w,
-                ./images/gallery/gallery-desktop-6-400.webp 400w,
-                ./images/gallery/gallery-desktop-6-800.webp 800w
-              "
-              sizes="(min-width: 1440px) 400px, (min-width: 834px) 377px, (min-width: 375px) 343px"
-              alt="blue lake"
-              src="./images/gallery/gallery-6.jpg"
-            />
           </div>
           <!--Image #7-->
           <div class="gallery__item">
