@@ -602,9 +602,7 @@
       <section class="gallery" id="gallery">
         <div class="container">
           <h2 class="title">Gallery</h2>
-          <!-- Slider main container -->
           <div class="swiper gallery-swiper">
-            <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
               <!-- Image #1 -->
               <div class="swiper-slide">
@@ -1121,8 +1119,16 @@
             </div>
 
             <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev swiper-button-prev-gallery">
+              <svg class="swiper_arrow">
+                <use href="./images/icons.svg#icon-arrow-left"></use>
+              </svg>
+            </div>
+            <div class="swiper-button-next swiper-button-next-gallery">
+              <svg class="swiper_arrow">
+                <use href="./images/icons.svg#icon-arrow-right"></use>
+              </svg>
+            </div>
           </div>
         </div>
       </section>
